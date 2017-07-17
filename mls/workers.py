@@ -1,12 +1,11 @@
-from concurrent.futures import ThreadPoolExecutor
 import requests
 import lxml.html
 import re
 import time
+import datetime
 from math import ceil
-
-from query import QUERY
-from settings import BASE_URL, AID_KEY
+from models import MLSListing
+from models2 import db
 
 
 def get_params(aid, query):
@@ -19,6 +18,7 @@ def get_params(aid, query):
     }
     return params
 
+
 def get_n_pages(base_url, params):
     r = requests.get(base_url, params=params)
 
@@ -30,6 +30,7 @@ def get_n_pages(base_url, params):
     n_pages = int(ceil(n_records / 50.))
 
     return n_pages
+
 
 def scrape_listing_page(base_url, params, pn=1):
     def get_info(prop):
@@ -58,6 +59,7 @@ def scrape_listing_page(base_url, params, pn=1):
 
     return out
 
+
 def get_page_info(base_url, mls, aid):
     def get_feature(html, f):
         for idx, a in enumerate(html.xpath('//td[@class="Details"]')):
@@ -69,7 +71,7 @@ def get_page_info(base_url, mls, aid):
 
     params = {
         'mls': mls,
-        'aid': AID_KEY
+        'aid': aid
     }
     r = requests.get(base_url, params=params)
     html = lxml.html.fromstring(r.text)
@@ -94,11 +96,11 @@ def get_page_info(base_url, mls, aid):
 
         out = {
             'address': tmp.groups()[1],
-            'price': price,
-            'total_rooms': total_rooms,
-            'n_beds': n_beds,
-            'n_baths': n_baths,
-            'living_area': living_area
+            'price': float(price.replace('$', '').replace(',', '')),
+            'total_rooms': float(total_rooms),
+            'n_beds': float(n_beds),
+            'n_baths': float(n_baths),
+            'living_area': float(re.match('(\d+)sqft', living_area).groups()[0])
         }
         return out
     except Exception as e:
@@ -127,38 +129,8 @@ def save_listing(listing):
             living_area=listing['living_area'],
             n_beds=listing['n_beds'],
             n_baths=listing['n_baths'],
-            total_rooms=listing['total_rooms']
+            total_rooms=listing['total_rooms'],
+            created=datetime.datetime.now()
         )
 
         db.session.add(mls_listing)
-
-
-save_listing({"mls": 71940436})
-
-
-
-
-params = get_params(AID_KEY, QUERY)
-params
-
-mls_listing = MLSListing.query.get(mls)
-print(mls_listing)
-
-listings = scrape_listing_page(BASE_URL, params)
-listings
-
-for l in listings:
-    listing = get_page_info('http://vow.mlspin.com/idx/details.aspx',mls=l['mls'], aid=AID_KEY)
-    listing["mls"] = l['mls']
-    save_listing(listing)
-
-
-
-mobj = MLSQuery(QUERY, AID_KEY)
-# mobj.get_n_pages()
-
-out = mobj.scrape_listing_page()
-
-for _ in range(10):
-    print(len(mobj.results))
-    time.sleep(.2)

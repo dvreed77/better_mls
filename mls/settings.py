@@ -1,9 +1,11 @@
 import os
+from os.path import dirname as dname
 from utils import *
 import logging
 
-BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-PRIVATE_DIR = os.path.join(BASE_DIR, 'private')
+PROJECT_DIR = os.path.abspath(dname(dname(__file__)))
+PRIVATE_DIR = os.path.join(PROJECT_DIR, 'private')
+DATA_DIR = os.path.join(PROJECT_DIR, 'data')
 
 GOOGLE_KEY = get_key(os.path.join(PRIVATE_DIR, 'google.key'))
 AID_KEY = get_key(os.path.join(PRIVATE_DIR, 'aid.key'))
@@ -11,6 +13,12 @@ BASE_URL = 'http://vow.mlspin.com/idx/rslts.aspx'
 
 SQLALCHEMY_DATABASE_URI = 'sqlite:///{}/mls_listings.db'.format(BASE_DIR)
 SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+
+CELERY_BROKER_URL = 'amqp://'
+CELERY_IMPORTS = ('mls.tasks',)
+
+
 # SQLALCHEMY_DATABASE_URI = 'postgresql://dreed@blue.amers2.cis.trcloud:5432/datalab'
 
 
