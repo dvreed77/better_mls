@@ -1,0 +1,945 @@
+2016-01-04 04:53:49,251 root         INFO     Added 0 new entries
+2016-01-04 16:35:59,254 root         INFO     Added 10 new entries
+2016-01-06 03:12:24,415 root         INFO     Added 33 new entries
+2016-01-06 03:20:15,404 root         INFO     Added 0 new entries
+2016-01-06 12:00:13,646 root         INFO     Added 6 new entries
+2016-01-07 12:00:22,080 root         INFO     Added 31 new entries
+2016-01-08 12:00:18,735 root         INFO     Added 29 new entries
+2016-01-09 12:00:20,955 root         INFO     Added 16 new entries
+2016-01-10 12:00:18,818 root         INFO     Added 25 new entries
+2016-01-11 12:00:19,630 root         INFO     Added 16 new entries
+2016-01-12 12:00:20,363 root         INFO     Added 17 new entries
+2016-01-13 12:00:19,799 root         INFO     Added 20 new entries
+2016-01-14 12:00:14,686 root         INFO     Added 22 new entries
+2016-01-15 12:00:16,995 root         INFO     Added 19 new entries
+2016-01-16 12:00:17,988 root         INFO     Added 16 new entries
+2016-01-17 12:00:15,698 root         INFO     Added 15 new entries
+2016-01-18 12:00:15,720 root         INFO     Added 14 new entries
+2016-01-19 12:00:24,131 root         INFO     Added 13 new entries
+2016-01-20 12:00:16,919 root         INFO     Added 23 new entries
+2016-01-21 12:00:14,204 root         INFO     Added 21 new entries
+2016-01-22 12:00:17,971 root         INFO     Added 19 new entries
+2016-01-23 12:00:15,585 root         INFO     Added 22 new entries
+2016-01-24 12:00:13,765 root         INFO     Added 12 new entries
+2016-01-25 12:00:13,291 root         INFO     Added 18 new entries
+2016-01-26 12:00:15,100 root         INFO     Added 18 new entries
+2016-01-27 12:00:17,360 root         INFO     Added 20 new entries
+2016-01-28 12:00:18,172 root         INFO     Added 26 new entries
+2016-01-29 02:42:01,834 root         INFO     Added 16 new entries
+2016-01-29 02:45:41,694 root         INFO     Added 0 new entries
+2016-01-29 02:45:42,042 root         INFO     Set 149 records to 'Off-Market'
+2016-01-29 23:08:12,336 root         INFO     Added 7 new entries
+2016-01-29 23:08:24,143 root         INFO     Set 6 records to 'Off-Market'
+2016-01-29 23:09:34,263 root         INFO     Added 0 new entries
+2016-01-29 23:09:35,017 root         INFO     Set 0 records to 'Off-Market'
+2016-01-29 23:13:12,479 root         INFO     Added 0 new entries
+2016-01-29 23:13:13,458 root         INFO     Set 0 records to 'Off-Market'
+2016-01-30 12:00:17,840 root         INFO     Added 1 new entries
+2016-01-31 12:00:16,791 root         INFO     Added 2 new entries
+2016-02-01 12:00:17,922 root         INFO     Added 4 new entries
+2016-02-01 12:53:01,078 root         INFO     Added 4 new entries
+2016-02-01 12:53:53,234 root         INFO     Added 27 new entries
+2016-02-01 12:53:54,327 root         ERROR    Error with MLS: 71950972 ('NoneType' object has no attribute 'groups')
+2016-02-01 12:54:41,029 root         INFO     Set 15 records to 'Off-Market'
+2016-02-02 12:00:17,547 root         INFO     Added 10 new entries
+2016-02-02 12:00:36,912 root         INFO     Set 8 records to 'Off-Market'
+2016-02-03 12:00:15,656 root         INFO     Added 7 new entries
+2016-02-03 12:00:30,297 root         INFO     Set 7 records to 'Off-Market'
+2016-02-04 12:00:18,452 root         INFO     Added 18 new entries
+2016-02-04 12:00:59,258 root         INFO     Set 8 records to 'Off-Market'
+2016-02-05 12:00:17,428 root         INFO     Added 8 new entries
+2016-02-05 12:00:36,744 root         INFO     Set 9 records to 'Off-Market'
+2016-02-06 12:00:17,708 root         INFO     Added 3 new entries
+2016-02-06 12:00:26,640 root         INFO     Set 7 records to 'Off-Market'
+2016-02-07 12:00:18,526 root         INFO     Added 0 new entries
+2016-02-07 12:00:21,998 root         INFO     Set 2 records to 'Off-Market'
+2016-02-08 12:00:18,615 root         INFO     Added 1 new entries
+2016-02-08 12:00:24,941 root         INFO     Set 6 records to 'Off-Market'
+2016-02-09 12:00:15,034 root         INFO     Added 9 new entries
+2016-02-09 12:00:36,876 root         INFO     Set 6 records to 'Off-Market'
+2016-02-10 12:00:20,319 root         INFO     Added 7 new entries
+2016-02-10 12:00:36,593 root         INFO     Set 13 records to 'Off-Market'
+2016-02-11 12:00:15,548 root         INFO     Added 11 new entries
+2016-02-11 12:00:37,876 root         INFO     Set 15 records to 'Off-Market'
+2016-02-12 12:00:20,008 root         INFO     Added 13 new entries
+2016-02-12 12:00:46,812 root         INFO     Set 10 records to 'Off-Market'
+2016-02-13 12:00:16,973 root         INFO     Added 1 new entries
+2016-02-13 12:00:25,744 root         INFO     Set 13 records to 'Off-Market'
+2016-02-14 12:00:16,722 root         INFO     Added 2 new entries
+2016-02-14 12:00:28,295 root         INFO     Set 3 records to 'Off-Market'
+2016-02-15 12:00:18,845 root         INFO     Added 1 new entries
+2016-02-15 12:00:59,195 root         INFO     Set 3 records to 'Off-Market'
+2016-02-16 12:00:15,658 root         INFO     Added 6 new entries
+2016-02-16 12:00:32,161 root         INFO     Set 6 records to 'Off-Market'
+2016-02-17 12:00:16,419 root         INFO     Added 13 new entries
+2016-02-17 12:00:52,472 root         INFO     Set 10 records to 'Off-Market'
+2016-02-18 12:00:16,550 root         INFO     Added 14 new entries
+2016-02-18 12:00:51,928 root         INFO     Set 7 records to 'Off-Market'
+2016-02-19 12:00:18,722 root         INFO     Added 14 new entries
+2016-02-19 12:00:59,130 root         INFO     Set 8 records to 'Off-Market'
+2016-02-20 12:00:16,046 root         INFO     Added 7 new entries
+2016-02-20 12:00:41,976 root         INFO     Set 5 records to 'Off-Market'
+2016-02-21 12:00:17,817 root         INFO     Added 2 new entries
+2016-02-21 12:00:33,378 root         INFO     Set 5 records to 'Off-Market'
+2016-02-22 12:00:16,881 root         INFO     Added 1 new entries
+2016-02-22 12:00:32,299 root         INFO     Set 2 records to 'Off-Market'
+2016-02-23 12:00:15,797 root         INFO     Added 7 new entries
+2016-02-23 12:00:44,250 root         INFO     Set 9 records to 'Off-Market'
+2016-02-24 12:00:18,889 root         INFO     Added 9 new entries
+2016-02-24 12:00:51,162 root         INFO     Set 10 records to 'Off-Market'
+2016-02-25 12:00:15,802 root         INFO     Added 15 new entries
+2016-02-25 12:00:39,925 root         ERROR    Error with MLS: 71963012 ('NoneType' object has no attribute 'groups')
+2016-02-25 12:01:06,920 root         INFO     Set 21 records to 'Off-Market'
+2016-02-26 12:00:18,883 root         INFO     Added 12 new entries
+2016-02-26 12:01:01,180 root         INFO     Set 11 records to 'Off-Market'
+2016-02-27 12:00:17,255 root         INFO     Added 5 new entries
+2016-02-27 12:00:47,414 root         INFO     Set 4 records to 'Off-Market'
+2016-02-28 12:00:17,358 root         INFO     Added 3 new entries
+2016-02-28 12:00:18,824 root         ERROR    Error with MLS: 71963898 ('NoneType' object has no attribute 'groups')
+2016-02-28 12:00:40,381 root         INFO     Set 4 records to 'Off-Market'
+2016-02-29 12:00:14,889 root         INFO     Added 0 new entries
+2016-02-29 12:00:34,824 root         INFO     Set 4 records to 'Off-Market'
+2016-03-01 12:00:16,204 root         INFO     Added 4 new entries
+2016-03-01 12:00:44,574 root         INFO     Set 8 records to 'Off-Market'
+2016-03-02 12:00:14,866 root         INFO     Added 18 new entries
+2016-03-02 12:01:12,337 root         INFO     Set 14 records to 'Off-Market'
+2016-03-03 12:00:19,151 root         INFO     Added 30 new entries
+2016-03-03 12:01:30,847 root         INFO     Set 7 records to 'Off-Market'
+2016-03-04 12:00:17,179 root         INFO     Added 16 new entries
+2016-03-04 12:01:17,280 root         INFO     Set 14 records to 'Off-Market'
+2016-03-05 12:00:20,411 root         INFO     Added 7 new entries
+2016-03-05 12:00:24,890 root         ERROR    Error with MLS: 71967235 ('NoneType' object has no attribute 'groups')
+2016-03-05 12:00:58,119 root         INFO     Set 5 records to 'Off-Market'
+2016-03-06 12:00:18,445 root         INFO     Added 1 new entries
+2016-03-06 12:00:47,368 root         INFO     Set 3 records to 'Off-Market'
+2016-03-07 12:00:19,092 root         INFO     Added 3 new entries
+2016-03-07 12:00:54,639 root         INFO     Set 3 records to 'Off-Market'
+2016-03-08 12:00:20,983 root         INFO     Added 4 new entries
+2016-03-08 12:00:58,950 root         INFO     Set 6 records to 'Off-Market'
+2016-03-09 12:00:17,442 root         INFO     Added 11 new entries
+2016-03-09 12:01:13,394 root         INFO     Set 18 records to 'Off-Market'
+2016-03-10 12:00:17,089 root         INFO     Added 22 new entries
+2016-03-10 12:01:37,609 root         INFO     Set 9 records to 'Off-Market'
+2016-03-11 12:00:18,765 root         INFO     Added 13 new entries
+2016-03-11 12:01:16,389 root         INFO     Set 13 records to 'Off-Market'
+2016-03-12 12:00:16,011 root         INFO     Added 2 new entries
+2016-03-12 12:00:56,078 root         INFO     Set 8 records to 'Off-Market'
+2016-03-13 12:00:18,715 root         INFO     Added 6 new entries
+2016-03-13 12:01:08,435 root         INFO     Set 4 records to 'Off-Market'
+2016-03-14 12:00:17,503 root         INFO     Added 1 new entries
+2016-03-14 12:00:59,121 root         INFO     Set 1 records to 'Off-Market'
+2016-03-15 12:00:16,789 root         INFO     Added 4 new entries
+2016-03-15 12:01:07,698 root         INFO     Set 12 records to 'Off-Market'
+2016-03-16 12:00:17,019 root         INFO     Added 13 new entries
+2016-03-16 12:01:24,914 root         INFO     Set 11 records to 'Off-Market'
+2016-03-17 12:00:17,587 root         INFO     Added 37 new entries
+2016-03-17 12:02:05,841 root         INFO     Set 13 records to 'Off-Market'
+2016-03-18 12:00:19,015 root         INFO     Added 9 new entries
+2016-03-18 12:01:22,363 root         INFO     Set 7 records to 'Off-Market'
+2016-03-19 12:00:18,332 root         INFO     Added 2 new entries
+2016-03-19 12:01:10,936 root         INFO     Set 8 records to 'Off-Market'
+2016-03-20 12:00:18,473 root         INFO     Added 3 new entries
+2016-03-20 12:01:18,125 root         INFO     Set 3 records to 'Off-Market'
+2016-03-21 12:00:20,429 root         INFO     Added 5 new entries
+2016-03-21 12:01:26,204 root         INFO     Set 1 records to 'Off-Market'
+2016-03-22 12:00:18,293 root         INFO     Added 9 new entries
+2016-03-22 12:01:32,746 root         INFO     Set 16 records to 'Off-Market'
+2016-03-23 12:00:18,239 root         INFO     Added 6 new entries
+2016-03-23 12:01:28,616 root         INFO     Set 15 records to 'Off-Market'
+2016-03-24 12:00:20,693 root         INFO     Added 14 new entries
+2016-03-24 12:01:48,767 root         INFO     Set 16 records to 'Off-Market'
+2016-03-25 12:00:18,706 root         INFO     Added 11 new entries
+2016-03-25 12:01:50,646 root         INFO     Set 11 records to 'Off-Market'
+2016-03-26 12:00:16,667 root         INFO     Added 5 new entries
+2016-03-26 12:00:17,141 root         ERROR    Error with MLS: 71977374 ('NoneType' object has no attribute 'groups')
+2016-03-26 12:01:28,990 root         INFO     Set 15 records to 'Off-Market'
+2016-03-27 12:00:17,458 root         INFO     Added 1 new entries
+2016-03-27 12:01:27,162 root         INFO     Set 3 records to 'Off-Market'
+2016-03-28 12:00:19,746 root         INFO     Added 3 new entries
+2016-03-28 12:01:31,876 root         INFO     Set 1 records to 'Off-Market'
+2016-03-29 12:00:19,635 root         INFO     Added 10 new entries
+2016-03-29 12:02:02,261 root         INFO     Set 12 records to 'Off-Market'
+2016-03-30 12:00:21,806 root         INFO     Added 27 new entries
+2016-03-30 12:02:28,466 root         INFO     Set 9 records to 'Off-Market'
+2016-03-31 12:00:23,270 root         INFO     Added 39 new entries
+2016-03-31 12:02:50,053 root         INFO     Set 14 records to 'Off-Market'
+2016-04-01 12:00:18,663 root         INFO     Added 22 new entries
+2016-04-01 12:02:22,678 root         INFO     Set 7 records to 'Off-Market'
+2016-04-02 12:00:23,905 root         INFO     Added 11 new entries
+2016-04-02 12:02:08,589 root         INFO     Set 6 records to 'Off-Market'
+2016-04-03 12:00:23,180 root         INFO     Added 2 new entries
+2016-04-03 12:01:49,449 root         INFO     Set 8 records to 'Off-Market'
+2016-04-04 12:00:19,728 root         INFO     Added 4 new entries
+2016-04-04 12:01:52,094 root         INFO     Set 4 records to 'Off-Market'
+2016-04-05 12:00:21,052 root         INFO     Added 6 new entries
+2016-04-05 12:02:01,486 root         INFO     Set 13 records to 'Off-Market'
+2016-04-06 12:00:17,967 root         INFO     Added 12 new entries
+2016-04-06 12:02:14,809 root         INFO     Set 19 records to 'Off-Market'
+2016-04-07 12:00:21,094 root         INFO     Added 28 new entries
+2016-04-07 12:02:48,141 root         INFO     Set 14 records to 'Off-Market'
+2016-04-08 12:00:20,487 root         INFO     Added 17 new entries
+2016-04-08 12:02:31,403 root         INFO     Set 5 records to 'Off-Market'
+2016-04-09 12:00:19,563 root         INFO     Added 6 new entries
+2016-04-09 12:02:13,719 root         INFO     Set 11 records to 'Off-Market'
+2016-04-10 12:00:19,836 root         INFO     Added 4 new entries
+2016-04-10 12:02:10,548 root         INFO     Set 4 records to 'Off-Market'
+2016-04-11 12:00:20,475 root         INFO     Added 1 new entries
+2016-04-11 12:02:08,551 root         INFO     Set 4 records to 'Off-Market'
+2016-04-12 12:00:20,043 root         INFO     Added 13 new entries
+2016-04-12 12:02:36,651 root         INFO     Set 7 records to 'Off-Market'
+2016-04-13 12:00:16,616 root         INFO     Added 13 new entries
+2016-04-13 12:02:39,508 root         INFO     Set 13 records to 'Off-Market'
+2016-04-15 12:00:21,950 root         INFO     Added 41 new entries
+2016-04-15 12:01:03,000 root         ERROR    Error with MLS: 71988125 ('NoneType' object has no attribute 'groups')
+2016-04-15 12:03:28,240 root         INFO     Set 25 records to 'Off-Market'
+2016-04-16 12:00:24,952 root         INFO     Added 9 new entries
+2016-04-16 12:02:49,082 root         INFO     Set 14 records to 'Off-Market'
+2016-04-17 12:00:20,975 root         INFO     Added 1 new entries
+2016-04-17 12:02:28,390 root         INFO     Set 9 records to 'Off-Market'
+2016-04-18 12:00:18,100 root         INFO     Added 0 new entries
+2016-04-18 12:02:31,163 root         INFO     Set 2 records to 'Off-Market'
+2016-04-19 12:00:22,031 root         INFO     Added 6 new entries
+2016-04-19 12:02:46,964 root         INFO     Set 13 records to 'Off-Market'
+2016-04-20 12:00:21,577 root         INFO     Added 19 new entries
+2016-04-20 12:03:16,720 root         INFO     Set 20 records to 'Off-Market'
+2016-04-21 12:00:28,679 root         INFO     Added 24 new entries
+2016-04-21 12:03:29,366 root         INFO     Set 19 records to 'Off-Market'
+2016-04-22 12:00:19,708 root         INFO     Added 28 new entries
+2016-04-22 12:03:30,485 root         INFO     Set 10 records to 'Off-Market'
+2016-04-23 12:00:24,060 root         INFO     Added 5 new entries
+2016-04-23 12:03:01,124 root         INFO     Set 10 records to 'Off-Market'
+2016-04-24 12:00:20,086 root         INFO     Added 3 new entries
+2016-04-24 12:03:04,666 root         INFO     Set 6 records to 'Off-Market'
+2016-04-25 12:00:21,677 root         INFO     Added 2 new entries
+2016-04-25 12:03:04,607 root         INFO     Set 2 records to 'Off-Market'
+2016-04-26 12:00:24,433 root         INFO     Added 14 new entries
+2016-04-26 12:03:35,496 root         INFO     Set 14 records to 'Off-Market'
+2016-04-27 12:00:21,383 root         INFO     Added 13 new entries
+2016-04-27 12:03:34,801 root         INFO     Set 22 records to 'Off-Market'
+2016-04-28 12:00:29,857 root         INFO     Added 40 new entries
+2016-04-28 12:04:26,618 root         INFO     Set 16 records to 'Off-Market'
+2016-04-29 12:00:21,044 root         INFO     Added 14 new entries
+2016-04-29 12:03:46,235 root         INFO     Set 5 records to 'Off-Market'
+2016-04-30 12:00:28,631 root         INFO     Added 9 new entries
+2016-04-30 12:03:48,379 root         INFO     Set 7 records to 'Off-Market'
+2016-05-01 12:00:20,576 root         INFO     Added 1 new entries
+2016-05-01 12:03:26,393 root         INFO     Set 13 records to 'Off-Market'
+2016-05-02 12:00:20,331 root         INFO     Added 5 new entries
+2016-05-02 12:03:41,069 root         INFO     Set 6 records to 'Off-Market'
+2016-05-03 12:00:24,198 root         INFO     Added 2 new entries
+2016-05-03 12:03:40,561 root         INFO     Set 17 records to 'Off-Market'
+2016-05-04 12:00:24,711 root         INFO     Added 12 new entries
+2016-05-04 12:04:11,323 root         INFO     Set 16 records to 'Off-Market'
+2016-05-05 12:00:27,600 root         INFO     Added 22 new entries
+2016-05-05 12:04:45,897 root         INFO     Set 16 records to 'Off-Market'
+2016-05-06 12:00:23,219 root         INFO     Added 20 new entries
+2016-05-06 12:04:47,650 root         INFO     Set 6 records to 'Off-Market'
+2016-05-07 12:00:22,945 root         INFO     Added 4 new entries
+2016-05-07 12:04:03,601 root         INFO     Set 10 records to 'Off-Market'
+2016-05-08 12:00:22,975 root         INFO     Added 3 new entries
+2016-05-08 12:04:03,819 root         INFO     Set 7 records to 'Off-Market'
+2016-05-09 12:00:23,725 root         INFO     Added 3 new entries
+2016-05-09 12:04:46,595 root         INFO     Set 1 records to 'Off-Market'
+2016-05-10 12:00:28,051 root         INFO     Added 9 new entries
+2016-05-10 12:05:02,727 root         INFO     Set 20 records to 'Off-Market'
+2016-05-11 12:00:19,243 root         INFO     Added 29 new entries
+2016-05-11 12:05:39,001 root         INFO     Set 12 records to 'Off-Market'
+2016-05-12 12:00:24,250 root         INFO     Added 56 new entries
+2016-05-12 12:06:29,459 root         INFO     Set 13 records to 'Off-Market'
+2016-05-13 12:00:39,075 root         INFO     Added 22 new entries
+2016-05-13 12:06:10,502 root         INFO     Set 7 records to 'Off-Market'
+2016-05-14 12:00:27,143 root         INFO     Added 10 new entries
+2016-05-14 12:05:33,326 root         INFO     Set 11 records to 'Off-Market'
+2016-05-15 12:00:23,274 root         INFO     Added 4 new entries
+2016-05-15 12:05:24,654 root         INFO     Set 12 records to 'Off-Market'
+2016-05-16 12:00:22,429 root         INFO     Added 3 new entries
+2016-05-16 12:05:37,069 root         INFO     Set 3 records to 'Off-Market'
+2016-05-17 12:00:23,952 root         INFO     Added 10 new entries
+2016-05-17 12:05:53,883 root         INFO     Set 16 records to 'Off-Market'
+2016-05-18 12:00:23,259 root         INFO     Added 11 new entries
+2016-05-18 12:06:02,205 root         INFO     Set 18 records to 'Off-Market'
+2016-05-19 12:00:24,122 root         INFO     Added 37 new entries
+2016-05-19 12:07:02,482 root         INFO     Set 21 records to 'Off-Market'
+2016-05-20 12:00:22,563 root         INFO     Added 30 new entries
+2016-05-20 12:07:15,624 root         INFO     Set 18 records to 'Off-Market'
+2016-05-21 12:00:25,703 root         INFO     Added 11 new entries
+2016-05-21 12:06:30,697 root         INFO     Set 21 records to 'Off-Market'
+2016-05-22 12:00:21,493 root         INFO     Added 2 new entries
+2016-05-22 12:06:12,408 root         INFO     Set 2 records to 'Off-Market'
+2016-05-23 12:00:24,675 root         INFO     Added 0 new entries
+2016-05-23 12:06:21,945 root         INFO     Set 6 records to 'Off-Market'
+2016-05-24 12:00:26,330 root         INFO     Added 7 new entries
+2016-05-24 12:06:46,154 root         INFO     Set 16 records to 'Off-Market'
+2016-05-25 12:00:22,997 root         INFO     Added 6 new entries
+2016-05-25 12:06:45,066 root         INFO     Set 10 records to 'Off-Market'
+2016-05-26 12:00:23,989 root         INFO     Added 5 new entries
+2016-05-26 12:06:52,430 root         INFO     Set 19 records to 'Off-Market'
+2016-05-27 12:00:25,470 root         INFO     Added 6 new entries
+2016-05-27 12:07:03,742 root         INFO     Set 13 records to 'Off-Market'
+2016-05-28 12:00:20,303 root         INFO     Added 3 new entries
+2016-05-28 12:06:57,847 root         INFO     Set 16 records to 'Off-Market'
+2016-05-29 12:00:24,545 root         INFO     Added 2 new entries
+2016-05-29 12:07:08,536 root         INFO     Set 7 records to 'Off-Market'
+2016-05-30 12:00:21,360 root         INFO     Added 0 new entries
+2016-05-30 12:07:13,091 root         INFO     Set 2 records to 'Off-Market'
+2016-05-31 12:00:24,107 root         INFO     Added 2 new entries
+2016-05-31 12:07:27,863 root         INFO     Set 3 records to 'Off-Market'
+2016-06-01 12:00:24,473 root         INFO     Added 24 new entries
+2016-06-01 12:08:32,842 root         INFO     Set 23 records to 'Off-Market'
+2016-06-02 12:00:24,709 root         INFO     Added 40 new entries
+2016-06-02 12:09:02,109 root         INFO     Set 21 records to 'Off-Market'
+2016-06-03 12:00:25,254 root         INFO     Added 21 new entries
+2016-06-03 12:08:27,296 root         INFO     Set 12 records to 'Off-Market'
+2016-06-04 12:00:26,748 root         INFO     Added 17 new entries
+2016-06-04 12:08:29,809 root         INFO     Set 15 records to 'Off-Market'
+2016-06-05 12:00:23,376 root         INFO     Added 1 new entries
+2016-06-05 12:08:08,978 root         INFO     Set 12 records to 'Off-Market'
+2016-06-06 12:00:21,386 root         INFO     Added 3 new entries
+2016-06-06 12:08:15,874 root         INFO     Set 4 records to 'Off-Market'
+2016-06-07 12:00:22,851 root         INFO     Added 6 new entries
+2016-06-07 12:08:26,570 root         INFO     Set 13 records to 'Off-Market'
+2016-06-08 12:00:24,460 root         INFO     Added 16 new entries
+2016-06-08 12:09:16,224 root         INFO     Set 14 records to 'Off-Market'
+2016-06-09 12:00:21,654 root         INFO     Added 30 new entries
+2016-06-09 12:09:55,490 root         INFO     Set 24 records to 'Off-Market'
+2016-06-10 12:00:22,672 root         INFO     Added 32 new entries
+2016-06-10 12:10:23,442 root         INFO     Set 14 records to 'Off-Market'
+2016-06-11 12:00:30,783 root         INFO     Added 7 new entries
+2016-06-11 12:09:21,477 root         INFO     Set 16 records to 'Off-Market'
+2016-06-12 12:00:25,273 root         INFO     Added 4 new entries
+2016-06-12 12:09:22,501 root         INFO     Set 4 records to 'Off-Market'
+2016-06-13 12:00:23,529 root         INFO     Added 2 new entries
+2016-06-13 12:09:22,334 root         INFO     Set 5 records to 'Off-Market'
+2016-06-14 12:00:23,084 root         INFO     Added 5 new entries
+2016-06-14 12:09:33,914 root         INFO     Set 10 records to 'Off-Market'
+2016-06-15 12:00:22,308 root         INFO     Added 19 new entries
+2016-06-15 12:00:32,703 root         ERROR    Error with MLS: 72022808 ('NoneType' object has no attribute 'groups')
+2016-06-15 12:10:47,855 root         INFO     Set 14 records to 'Off-Market'
+2016-06-16 12:00:23,519 root         INFO     Added 32 new entries
+2016-06-16 12:11:13,971 root         INFO     Set 20 records to 'Off-Market'
+2016-06-17 12:00:25,159 root         INFO     Added 23 new entries
+2016-06-17 12:11:24,313 root         INFO     Set 15 records to 'Off-Market'
+2016-06-18 12:00:20,948 root         INFO     Added 13 new entries
+2016-06-18 12:10:57,059 root         INFO     Set 16 records to 'Off-Market'
+2016-06-19 12:00:23,475 root         INFO     Added 1 new entries
+2016-06-19 12:10:22,810 root         INFO     Set 9 records to 'Off-Market'
+2016-06-20 12:00:24,068 root         INFO     Added 1 new entries
+2016-06-20 12:10:56,365 root         INFO     Set 4 records to 'Off-Market'
+2016-06-21 12:00:24,832 root         INFO     Added 10 new entries
+2016-06-21 12:11:13,785 root         INFO     Set 20 records to 'Off-Market'
+2016-06-22 12:00:26,299 root         INFO     Added 8 new entries
+2016-06-22 12:11:23,897 root         INFO     Set 22 records to 'Off-Market'
+2016-06-23 12:00:26,618 root         INFO     Added 40 new entries
+2016-06-23 12:00:45,372 root         ERROR    Error with MLS: 72027234 ('NoneType' object has no attribute 'groups')
+2016-06-23 12:12:46,496 root         INFO     Set 12 records to 'Off-Market'
+2016-06-24 12:00:23,324 root         INFO     Added 22 new entries
+2016-06-24 12:12:12,225 root         INFO     Set 11 records to 'Off-Market'
+2016-06-25 12:00:23,293 root         INFO     Added 12 new entries
+2016-06-25 12:11:54,723 root         INFO     Set 11 records to 'Off-Market'
+2016-06-26 12:00:20,914 root         INFO     Added 0 new entries
+2016-06-26 12:11:27,412 root         INFO     Set 7 records to 'Off-Market'
+2016-06-27 12:00:23,479 root         INFO     Added 3 new entries
+2016-06-27 12:11:43,114 root         INFO     Set 3 records to 'Off-Market'
+2016-06-28 12:00:23,838 root         INFO     Added 3 new entries
+2016-06-28 12:11:51,467 root         INFO     Set 13 records to 'Off-Market'
+2016-06-29 12:00:23,999 root         INFO     Added 7 new entries
+2016-06-29 12:12:59,535 root         INFO     Set 24 records to 'Off-Market'
+2016-06-30 12:00:23,602 root         INFO     Added 4 new entries
+2016-06-30 12:12:18,800 root         INFO     Set 18 records to 'Off-Market'
+2016-07-01 12:00:21,728 root         INFO     Added 4 new entries
+2016-07-01 12:12:35,570 root         INFO     Set 28 records to 'Off-Market'
+2016-07-02 12:00:24,512 root         INFO     Added 7 new entries
+2016-07-02 12:12:41,379 root         INFO     Set 14 records to 'Off-Market'
+2016-07-03 12:00:20,625 root         INFO     Added 4 new entries
+2016-07-03 12:13:01,717 root         INFO     Set 5 records to 'Off-Market'
+2016-07-04 12:00:23,661 root         INFO     Added 0 new entries
+2016-07-04 12:13:07,078 root         INFO     Set 0 records to 'Off-Market'
+2016-07-05 12:00:20,844 root         INFO     Added 8 new entries
+2016-07-05 12:13:09,896 root         INFO     Set 6 records to 'Off-Market'
+2016-07-06 12:00:21,838 root         INFO     Added 20 new entries
+2016-07-06 12:14:05,855 root         INFO     Set 11 records to 'Off-Market'
+2016-07-07 12:00:23,397 root         INFO     Added 24 new entries
+2016-07-07 12:14:16,090 root         INFO     Set 11 records to 'Off-Market'
+2016-07-08 12:00:21,531 root         INFO     Added 13 new entries
+2016-07-08 12:13:52,039 root         INFO     Set 9 records to 'Off-Market'
+2016-07-09 12:00:22,041 root         INFO     Added 6 new entries
+2016-07-09 12:13:44,141 root         INFO     Set 20 records to 'Off-Market'
+2016-07-10 12:00:23,891 root         INFO     Added 0 new entries
+2016-07-10 12:13:48,139 root         INFO     Set 18 records to 'Off-Market'
+2016-07-11 12:00:23,490 root         INFO     Added 1 new entries
+2016-07-11 12:14:04,509 root         INFO     Set 4 records to 'Off-Market'
+2016-07-12 12:00:24,336 root         INFO     Added 11 new entries
+2016-07-12 12:14:35,133 root         INFO     Set 11 records to 'Off-Market'
+2016-07-13 12:00:21,559 root         INFO     Added 9 new entries
+2016-07-13 12:14:42,494 root         INFO     Set 14 records to 'Off-Market'
+2016-07-14 12:00:23,243 root         INFO     Added 33 new entries
+2016-07-14 12:15:47,645 root         INFO     Set 9 records to 'Off-Market'
+2016-07-15 12:00:23,133 root         INFO     Added 21 new entries
+2016-07-15 12:15:28,801 root         INFO     Set 14 records to 'Off-Market'
+2016-07-16 12:00:20,098 root         INFO     Added 3 new entries
+2016-07-16 12:14:56,370 root         INFO     Set 10 records to 'Off-Market'
+2016-07-17 12:00:21,526 root         INFO     Added 0 new entries
+2016-07-17 12:15:16,122 root         INFO     Set 5 records to 'Off-Market'
+2016-07-18 12:00:22,080 root         INFO     Added 2 new entries
+2016-07-18 12:15:35,036 root         INFO     Set 6 records to 'Off-Market'
+2016-07-19 12:00:21,743 root         INFO     Added 7 new entries
+2016-07-19 12:15:52,812 root         INFO     Set 21 records to 'Off-Market'
+2016-07-20 12:00:21,639 root         INFO     Added 8 new entries
+2016-07-20 12:16:19,244 root         INFO     Set 16 records to 'Off-Market'
+2016-07-21 12:00:18,768 root         INFO     Added 19 new entries
+2016-07-21 12:16:32,010 root         INFO     Set 15 records to 'Off-Market'
+2016-07-22 12:00:20,349 root         INFO     Added 12 new entries
+2016-07-22 12:16:26,356 root         INFO     Set 15 records to 'Off-Market'
+2016-07-23 12:00:19,899 root         INFO     Added 8 new entries
+2016-07-23 12:16:26,308 root         INFO     Set 11 records to 'Off-Market'
+2016-07-24 12:00:22,488 root         INFO     Added 0 new entries
+2016-07-24 12:16:46,274 root         INFO     Set 6 records to 'Off-Market'
+2016-07-25 12:00:20,158 root         INFO     Added 4 new entries
+2016-07-25 12:16:52,428 root         INFO     Set 8 records to 'Off-Market'
+2016-07-26 12:00:22,335 root         INFO     Added 12 new entries
+2016-07-26 12:17:10,677 root         INFO     Set 11 records to 'Off-Market'
+2016-07-27 12:00:18,327 root         INFO     Added 5 new entries
+2016-07-27 12:17:10,806 root         INFO     Set 17 records to 'Off-Market'
+2016-07-28 12:00:21,216 root         INFO     Added 13 new entries
+2016-07-28 12:17:40,918 root         INFO     Set 21 records to 'Off-Market'
+2016-07-29 12:00:18,856 root         INFO     Added 10 new entries
+2016-07-29 12:17:26,352 root         INFO     Set 14 records to 'Off-Market'
+2016-07-30 12:00:19,387 root         INFO     Added 5 new entries
+2016-07-30 12:17:43,813 root         INFO     Set 11 records to 'Off-Market'
+2016-07-31 12:00:20,574 root         INFO     Added 5 new entries
+2016-07-31 12:17:46,488 root         INFO     Set 7 records to 'Off-Market'
+2016-08-01 12:00:18,072 root         INFO     Added 2 new entries
+2016-08-01 12:17:50,765 root         INFO     Set 8 records to 'Off-Market'
+2016-08-02 12:00:14,722 root         INFO     Added 7 new entries
+2016-08-02 12:18:01,539 root         INFO     Set 106 records to 'Off-Market'
+2016-08-03 12:00:16,626 root         INFO     Added 14 new entries
+2016-08-03 12:18:31,540 root         INFO     Set 13 records to 'Off-Market'
+2016-08-04 12:00:15,300 root         INFO     Added 12 new entries
+2016-08-04 12:18:36,127 root         INFO     Set 10 records to 'Off-Market'
+2016-08-05 12:00:16,521 root         INFO     Added 15 new entries
+2016-08-05 12:00:29,223 root         ERROR    Error with MLS: 72048647 ('NoneType' object has no attribute 'groups')
+2016-08-05 12:18:50,940 root         INFO     Set 8 records to 'Off-Market'
+2016-08-06 12:00:16,573 root         INFO     Added 5 new entries
+2016-08-06 12:18:54,115 root         INFO     Set 8 records to 'Off-Market'
+2016-08-07 12:00:13,518 root         INFO     Added 2 new entries
+2016-08-07 12:18:34,376 root         INFO     Set 9 records to 'Off-Market'
+2016-08-08 12:00:14,402 root         INFO     Added 4 new entries
+2016-08-08 12:18:49,216 root         INFO     Set 5 records to 'Off-Market'
+2016-08-09 12:00:14,447 root         INFO     Added 13 new entries
+2016-08-09 12:19:32,062 root         INFO     Set 17 records to 'Off-Market'
+2016-08-10 12:00:19,264 root         INFO     Added 8 new entries
+2016-08-10 12:19:18,811 root         INFO     Set 11 records to 'Off-Market'
+2016-08-11 12:00:17,451 root         INFO     Added 20 new entries
+2016-08-11 12:20:05,447 root         INFO     Set 11 records to 'Off-Market'
+2016-08-12 12:00:14,996 root         INFO     Added 10 new entries
+2016-08-12 12:00:25,055 root         ERROR    Error with MLS: 72051977 ('NoneType' object has no attribute 'groups')
+2016-08-12 12:19:35,157 root         INFO     Set 10 records to 'Off-Market'
+2016-08-13 12:00:16,257 root         INFO     Added 7 new entries
+2016-08-13 12:19:42,884 root         INFO     Set 10 records to 'Off-Market'
+2016-08-14 12:00:17,735 root         INFO     Added 3 new entries
+2016-08-14 12:19:47,711 root         INFO     Set 8 records to 'Off-Market'
+2016-08-15 12:00:16,526 root         INFO     Added 1 new entries
+2016-08-15 12:19:33,732 root         INFO     Set 7 records to 'Off-Market'
+2016-08-16 12:00:14,056 root         INFO     Added 5 new entries
+2016-08-16 12:19:55,332 root         INFO     Set 9 records to 'Off-Market'
+2016-08-17 12:00:16,113 root         INFO     Added 6 new entries
+2016-08-17 12:20:11,982 root         INFO     Set 14 records to 'Off-Market'
+2016-08-18 12:00:19,216 root         INFO     Added 19 new entries
+2016-08-18 12:21:08,869 root         INFO     Set 6 records to 'Off-Market'
+2016-08-19 12:00:18,386 root         INFO     Added 11 new entries
+2016-08-19 12:20:53,080 root         INFO     Set 9 records to 'Off-Market'
+2016-08-20 12:00:16,620 root         INFO     Added 5 new entries
+2016-08-20 12:20:41,706 root         INFO     Set 8 records to 'Off-Market'
+2016-08-21 12:00:15,019 root         INFO     Added 6 new entries
+2016-08-21 12:20:45,560 root         INFO     Set 4 records to 'Off-Market'
+2016-08-22 12:00:17,487 root         INFO     Added 1 new entries
+2016-08-22 12:20:50,721 root         INFO     Set 5 records to 'Off-Market'
+2016-08-23 12:00:16,260 root         INFO     Added 4 new entries
+2016-08-23 12:20:55,456 root         INFO     Set 7 records to 'Off-Market'
+2016-08-24 12:00:17,196 root         INFO     Added 19 new entries
+2016-08-24 12:21:32,160 root         INFO     Set 14 records to 'Off-Market'
+2016-08-25 12:00:15,993 root         INFO     Added 15 new entries
+2016-08-25 12:21:59,920 root         INFO     Set 14 records to 'Off-Market'
+2016-08-26 12:00:17,949 root         INFO     Added 8 new entries
+2016-08-26 12:21:35,863 root         INFO     Set 7 records to 'Off-Market'
+2016-08-27 12:00:16,580 root         INFO     Added 0 new entries
+2016-08-27 12:22:03,205 root         INFO     Set 9 records to 'Off-Market'
+2016-08-28 12:00:15,100 root         INFO     Added 1 new entries
+2016-08-28 12:21:25,812 root         INFO     Set 5 records to 'Off-Market'
+2016-08-29 12:00:15,720 root         INFO     Added 0 new entries
+2016-08-29 12:21:45,360 root         INFO     Set 3 records to 'Off-Market'
+2016-08-30 12:00:14,825 root         INFO     Added 4 new entries
+2016-08-30 12:22:02,563 root         INFO     Set 8 records to 'Off-Market'
+2016-08-31 12:00:16,786 root         INFO     Added 7 new entries
+2016-08-31 12:22:11,015 root         INFO     Set 8 records to 'Off-Market'
+2016-09-01 12:00:18,011 root         INFO     Added 5 new entries
+2016-09-01 12:22:26,776 root         INFO     Set 16 records to 'Off-Market'
+2016-09-02 12:00:13,761 root         INFO     Added 3 new entries
+2016-09-02 12:22:15,764 root         INFO     Set 7 records to 'Off-Market'
+2016-09-03 12:00:14,929 root         INFO     Added 6 new entries
+2016-09-03 12:22:38,344 root         INFO     Set 11 records to 'Off-Market'
+2016-09-04 12:00:14,836 root         INFO     Added 1 new entries
+2016-09-04 12:22:23,288 root         INFO     Set 3 records to 'Off-Market'
+2016-09-05 12:00:14,895 root         INFO     Added 1 new entries
+2016-09-05 12:22:36,118 root         INFO     Set 9 records to 'Off-Market'
+2016-09-06 12:00:14,083 root         INFO     Added 1 new entries
+2016-09-06 12:23:01,850 root         INFO     Set 9 records to 'Off-Market'
+2016-09-07 12:00:14,856 root         INFO     Added 17 new entries
+2016-09-07 12:23:25,815 root         INFO     Set 18 records to 'Off-Market'
+2016-09-08 12:00:17,007 root         INFO     Added 32 new entries
+2016-09-08 12:24:01,623 root         INFO     Set 9 records to 'Off-Market'
+2016-09-09 12:00:18,240 root         INFO     Added 31 new entries
+2016-09-09 12:24:13,996 root         INFO     Set 6 records to 'Off-Market'
+2016-09-10 12:00:18,116 root         INFO     Added 12 new entries
+2016-09-10 12:23:40,462 root         INFO     Set 3 records to 'Off-Market'
+2016-09-11 12:00:18,056 root         INFO     Added 6 new entries
+2016-09-11 12:23:57,425 root         INFO     Set 8 records to 'Off-Market'
+2016-09-12 12:00:16,923 root         INFO     Added 4 new entries
+2016-09-12 12:00:21,770 root         ERROR    Error with MLS: 72065683 ('NoneType' object has no attribute 'groups')
+2016-09-12 12:24:09,159 root         INFO     Set 5 records to 'Off-Market'
+2016-09-13 12:00:16,048 root         INFO     Added 9 new entries
+2016-09-13 12:24:10,661 root         INFO     Set 10 records to 'Off-Market'
+2016-09-14 12:00:14,980 root         INFO     Added 13 new entries
+2016-09-14 12:24:22,182 root         INFO     Set 6 records to 'Off-Market'
+2016-09-15 12:00:21,170 root         INFO     Added 31 new entries
+2016-09-15 12:00:25,652 root         ERROR    Error with MLS: 72066928 ('NoneType' object has no attribute 'groups')
+2016-09-15 12:25:42,892 root         INFO     Set 16 records to 'Off-Market'
+2016-09-16 12:00:15,258 root         INFO     Added 24 new entries
+2016-09-16 12:25:12,742 root         INFO     Set 13 records to 'Off-Market'
+2016-09-17 12:00:18,232 root         INFO     Added 6 new entries
+2016-09-17 12:24:51,965 root         INFO     Set 6 records to 'Off-Market'
+2016-09-19 12:00:16,408 root         INFO     Added 7 new entries
+2016-09-19 12:24:51,521 root         INFO     Set 6 records to 'Off-Market'
+2016-09-20 12:00:17,131 root         INFO     Added 7 new entries
+2016-09-20 12:25:15,053 root         INFO     Set 11 records to 'Off-Market'
+2016-09-21 12:00:18,164 root         INFO     Added 15 new entries
+2016-09-21 12:25:38,378 root         INFO     Set 7 records to 'Off-Market'
+2016-09-22 12:00:34,270 root         INFO     Added 28 new entries
+2016-09-22 12:26:45,064 root         INFO     Set 13 records to 'Off-Market'
+2016-09-23 12:00:19,591 root         INFO     Added 22 new entries
+2016-09-23 12:26:23,893 root         INFO     Set 8 records to 'Off-Market'
+2016-09-24 12:00:19,702 root         INFO     Added 9 new entries
+2016-09-24 12:26:12,566 root         INFO     Set 3 records to 'Off-Market'
+2016-09-25 12:00:20,083 root         INFO     Added 4 new entries
+2016-09-25 12:26:31,985 root         INFO     Set 4 records to 'Off-Market'
+2016-09-26 12:00:20,607 root         INFO     Added 1 new entries
+2016-09-26 12:27:01,639 root         INFO     Set 6 records to 'Off-Market'
+2016-09-27 12:00:23,087 root         INFO     Added 6 new entries
+2016-09-27 12:26:34,597 root         INFO     Set 15 records to 'Off-Market'
+2016-09-28 12:00:20,198 root         INFO     Added 18 new entries
+2016-09-28 12:27:19,836 root         INFO     Set 10 records to 'Off-Market'
+2016-09-29 12:00:22,278 root         INFO     Added 30 new entries
+2016-09-29 12:28:10,288 root         INFO     Set 11 records to 'Off-Market'
+2016-09-30 12:00:25,071 root         INFO     Added 29 new entries
+2016-09-30 12:28:01,888 root         INFO     Set 12 records to 'Off-Market'
+2016-10-01 12:00:22,416 root         INFO     Added 7 new entries
+2016-10-01 12:27:31,971 root         INFO     Set 19 records to 'Off-Market'
+2016-10-02 12:00:21,273 root         INFO     Added 3 new entries
+2016-10-02 12:27:35,204 root         INFO     Set 5 records to 'Off-Market'
+2016-10-03 12:00:18,731 root         INFO     Added 2 new entries
+2016-10-03 12:27:37,939 root         INFO     Set 8 records to 'Off-Market'
+2016-10-04 12:00:18,114 root         INFO     Added 8 new entries
+2016-10-04 12:28:37,100 root         INFO     Set 8 records to 'Off-Market'
+2016-10-05 12:00:21,112 root         INFO     Added 6 new entries
+2016-10-05 12:28:17,065 root         INFO     Set 14 records to 'Off-Market'
+2016-10-06 12:00:23,112 root         INFO     Added 24 new entries
+2016-10-06 12:29:39,217 root         INFO     Set 13 records to 'Off-Market'
+2016-10-07 12:00:18,407 root         INFO     Added 17 new entries
+2016-10-07 12:29:43,536 root         INFO     Set 10 records to 'Off-Market'
+2016-10-08 12:00:20,105 root         INFO     Added 9 new entries
+2016-10-08 12:29:04,896 root         INFO     Set 13 records to 'Off-Market'
+2016-10-09 12:00:21,280 root         INFO     Added 1 new entries
+2016-10-09 12:28:58,523 root         INFO     Set 11 records to 'Off-Market'
+2016-10-10 12:00:20,388 root         INFO     Added 0 new entries
+2016-10-10 12:30:16,290 root         INFO     Set 5 records to 'Off-Market'
+2016-10-11 12:00:20,507 root         INFO     Added 6 new entries
+2016-10-11 12:29:40,369 root         INFO     Set 15 records to 'Off-Market'
+2016-10-12 12:00:19,045 root         INFO     Added 15 new entries
+2016-10-12 12:30:07,389 root         INFO     Set 8 records to 'Off-Market'
+2016-10-13 12:00:22,941 root         INFO     Added 28 new entries
+2016-10-13 12:30:51,226 root         INFO     Set 7 records to 'Off-Market'
+2016-10-14 12:00:20,165 root         INFO     Added 14 new entries
+2016-10-14 12:31:12,630 root         INFO     Set 11 records to 'Off-Market'
+2016-10-15 12:00:19,723 root         INFO     Added 9 new entries
+2016-10-15 12:30:48,078 root         INFO     Set 16 records to 'Off-Market'
+2016-10-16 12:00:19,990 root         INFO     Added 2 new entries
+2016-10-16 12:30:46,724 root         INFO     Set 8 records to 'Off-Market'
+2016-10-17 12:00:19,414 root         INFO     Added 0 new entries
+2016-10-17 12:30:51,172 root         INFO     Set 3 records to 'Off-Market'
+2016-10-18 12:00:20,102 root         INFO     Added 5 new entries
+2016-10-18 12:31:27,834 root         INFO     Set 13 records to 'Off-Market'
+2016-10-19 12:00:18,297 root         INFO     Added 6 new entries
+2016-10-19 12:31:48,429 root         INFO     Set 20 records to 'Off-Market'
+2016-10-20 12:00:20,646 root         INFO     Added 17 new entries
+2016-10-20 12:32:35,975 root         INFO     Set 23 records to 'Off-Market'
+2016-10-21 12:00:20,720 root         INFO     Added 18 new entries
+2016-10-21 12:32:12,059 root         INFO     Set 15 records to 'Off-Market'
+2016-10-22 12:00:18,036 root         INFO     Added 6 new entries
+2016-10-22 12:32:11,982 root         INFO     Set 9 records to 'Off-Market'
+2016-10-23 12:00:21,114 root         INFO     Added 1 new entries
+2016-10-23 12:32:07,113 root         INFO     Set 3 records to 'Off-Market'
+2016-10-24 12:00:20,595 root         INFO     Added 3 new entries
+2016-10-24 12:33:05,200 root         INFO     Set 4 records to 'Off-Market'
+2016-10-26 12:00:21,211 root         INFO     Added 21 new entries
+2016-10-26 12:33:56,090 root         INFO     Set 31 records to 'Off-Market'
+2016-10-27 12:00:21,095 root         INFO     Added 24 new entries
+2016-10-27 12:33:44,810 root         INFO     Set 11 records to 'Off-Market'
+2016-10-28 12:00:20,337 root         INFO     Added 16 new entries
+2016-10-28 12:34:20,055 root         INFO     Set 12 records to 'Off-Market'
+2016-10-29 12:00:22,935 root         INFO     Added 3 new entries
+2016-10-29 12:33:54,127 root         INFO     Set 8 records to 'Off-Market'
+2016-10-30 12:00:17,508 root         INFO     Added 2 new entries
+2016-10-30 12:35:08,502 root         INFO     Set 5 records to 'Off-Market'
+2016-10-31 12:00:20,847 root         INFO     Added 1 new entries
+2016-10-31 12:34:29,212 root         INFO     Set 6 records to 'Off-Market'
+2016-11-01 12:00:22,103 root         INFO     Added 7 new entries
+2016-11-01 12:36:10,162 root         INFO     Set 14 records to 'Off-Market'
+2016-11-02 12:00:22,436 root         INFO     Added 12 new entries
+2016-11-02 12:35:22,975 root         INFO     Set 12 records to 'Off-Market'
+2016-11-03 12:00:18,807 root         INFO     Added 23 new entries
+2016-11-03 12:35:59,629 root         INFO     Set 9 records to 'Off-Market'
+2016-11-04 12:00:20,531 root         INFO     Added 10 new entries
+2016-11-04 12:36:05,202 root         INFO     Set 15 records to 'Off-Market'
+2016-11-05 12:00:20,619 root         INFO     Added 11 new entries
+2016-11-05 12:36:12,069 root         INFO     Set 7 records to 'Off-Market'
+2016-11-06 12:00:19,254 root         INFO     Added 5 new entries
+2016-11-06 12:35:35,085 root         INFO     Set 4 records to 'Off-Market'
+2016-11-07 12:00:19,515 root         INFO     Added 1 new entries
+2016-11-07 12:35:53,255 root         INFO     Set 9 records to 'Off-Market'
+2016-11-08 12:00:17,944 root         INFO     Added 4 new entries
+2016-11-08 12:36:25,311 root         INFO     Set 25 records to 'Off-Market'
+2016-11-09 12:00:16,560 root         INFO     Added 4 new entries
+2016-11-09 12:36:22,433 root         INFO     Set 13 records to 'Off-Market'
+2016-11-10 12:00:20,146 root         INFO     Added 9 new entries
+2016-11-10 12:37:20,217 root         INFO     Set 5 records to 'Off-Market'
+2016-11-11 12:00:17,058 root         INFO     Added 16 new entries
+2016-11-11 12:37:07,973 root         INFO     Set 13 records to 'Off-Market'
+2016-11-12 12:00:18,337 root         INFO     Added 9 new entries
+2016-11-12 12:37:35,878 root         INFO     Set 7 records to 'Off-Market'
+2016-11-13 12:00:17,892 root         INFO     Added 2 new entries
+2016-11-13 12:37:08,007 root         INFO     Set 9 records to 'Off-Market'
+2016-11-14 12:00:17,423 root         INFO     Added 0 new entries
+2016-11-14 12:37:36,654 root         INFO     Set 8 records to 'Off-Market'
+2016-11-15 12:00:18,343 root         INFO     Added 4 new entries
+2016-11-15 12:37:49,762 root         INFO     Set 12 records to 'Off-Market'
+2016-11-16 12:00:18,715 root         INFO     Added 10 new entries
+2016-11-16 12:38:15,691 root         INFO     Set 16 records to 'Off-Market'
+2016-11-17 12:00:17,452 root         INFO     Added 10 new entries
+2016-11-17 12:38:35,310 root         INFO     Set 8 records to 'Off-Market'
+2016-11-18 12:00:17,156 root         INFO     Added 10 new entries
+2016-11-18 12:38:28,644 root         INFO     Set 16 records to 'Off-Market'
+2016-11-19 12:00:18,260 root         INFO     Added 4 new entries
+2016-11-19 12:38:39,800 root         INFO     Set 7 records to 'Off-Market'
+2016-11-20 12:00:20,971 root         INFO     Added 5 new entries
+2016-11-20 12:38:48,090 root         INFO     Set 6 records to 'Off-Market'
+2016-11-21 12:00:19,241 root         INFO     Added 1 new entries
+2016-11-21 12:38:56,505 root         INFO     Set 11 records to 'Off-Market'
+2016-11-22 12:00:16,931 root         INFO     Added 4 new entries
+2016-11-22 12:39:17,365 root         INFO     Set 15 records to 'Off-Market'
+2016-11-23 12:00:18,885 root         INFO     Added 5 new entries
+2016-11-23 12:39:32,302 root         INFO     Set 9 records to 'Off-Market'
+2016-11-24 12:00:15,379 root         INFO     Added 1 new entries
+2016-11-24 12:39:38,599 root         INFO     Set 10 records to 'Off-Market'
+2016-11-25 12:00:17,586 root         INFO     Added 1 new entries
+2016-11-25 12:39:38,600 root         INFO     Set 4 records to 'Off-Market'
+2016-11-26 12:00:16,214 root         INFO     Added 3 new entries
+2016-11-26 12:39:48,942 root         INFO     Set 5 records to 'Off-Market'
+2016-11-27 12:00:15,956 root         INFO     Added 2 new entries
+2016-11-27 12:40:16,080 root         INFO     Set 4 records to 'Off-Market'
+2016-11-28 12:00:17,432 root         INFO     Added 3 new entries
+2016-11-28 12:40:46,829 root         INFO     Set 6 records to 'Off-Market'
+2016-11-29 12:00:15,819 root         INFO     Added 8 new entries
+2016-11-29 12:41:28,148 root         INFO     Set 18 records to 'Off-Market'
+2016-11-30 12:00:21,859 root         INFO     Added 4 new entries
+2016-11-30 12:00:25,353 root         ERROR    Error with MLS: 72096936 ('NoneType' object has no attribute 'groups')
+2016-11-30 12:41:37,537 root         INFO     Set 12 records to 'Off-Market'
+2016-12-01 12:00:16,121 root         INFO     Added 16 new entries
+2016-12-01 12:41:56,889 root         INFO     Set 8 records to 'Off-Market'
+2016-12-02 12:00:16,419 root         INFO     Added 4 new entries
+2016-12-02 12:41:29,694 root         INFO     Set 5 records to 'Off-Market'
+2016-12-03 12:00:15,933 root         INFO     Added 5 new entries
+2016-12-03 12:41:42,748 root         INFO     Set 14 records to 'Off-Market'
+2016-12-04 12:00:16,287 root         INFO     Added 2 new entries
+2016-12-04 12:00:16,690 root         ERROR    Error with MLS: 72098490 ('NoneType' object has no attribute 'groups')
+2016-12-04 12:41:31,994 root         INFO     Set 4 records to 'Off-Market'
+2016-12-05 12:00:14,527 root         INFO     Added 3 new entries
+2016-12-05 12:43:01,552 root         INFO     Set 2 records to 'Off-Market'
+2016-12-06 12:00:20,422 root         INFO     Added 7 new entries
+2016-12-06 12:43:08,027 root         INFO     Set 11 records to 'Off-Market'
+2016-12-07 12:00:21,922 root         INFO     Added 4 new entries
+2016-12-07 12:42:40,150 root         INFO     Set 4 records to 'Off-Market'
+2016-12-08 12:00:18,900 root         INFO     Added 15 new entries
+2016-12-08 12:43:28,846 root         INFO     Set 6 records to 'Off-Market'
+2016-12-09 12:00:17,086 root         INFO     Added 8 new entries
+2016-12-09 12:43:15,167 root         INFO     Set 5 records to 'Off-Market'
+2016-12-10 12:00:14,233 root         INFO     Added 3 new entries
+2016-12-10 12:42:53,382 root         INFO     Set 7 records to 'Off-Market'
+2016-12-11 12:00:15,784 root         INFO     Added 2 new entries
+2016-12-11 12:42:52,424 root         INFO     Set 6 records to 'Off-Market'
+2016-12-12 12:00:17,134 root         INFO     Added 2 new entries
+2016-12-12 12:42:50,347 root         INFO     Set 6 records to 'Off-Market'
+2016-12-13 12:00:14,719 root         INFO     Added 2 new entries
+2016-12-13 12:43:32,148 root         INFO     Set 4 records to 'Off-Market'
+2016-12-14 12:00:16,749 root         INFO     Added 4 new entries
+2016-12-14 12:43:04,773 root         INFO     Set 8 records to 'Off-Market'
+2016-12-15 12:00:18,392 root         INFO     Added 8 new entries
+2016-12-15 12:44:24,747 root         INFO     Set 8 records to 'Off-Market'
+2016-12-16 12:00:15,022 root         INFO     Added 4 new entries
+2016-12-16 12:43:44,816 root         INFO     Set 7 records to 'Off-Market'
+2016-12-17 12:00:14,760 root         INFO     Added 3 new entries
+2016-12-17 12:45:25,095 root         INFO     Set 9 records to 'Off-Market'
+2016-12-18 12:00:13,875 root         INFO     Added 0 new entries
+2016-12-18 12:44:30,787 root         INFO     Set 2 records to 'Off-Market'
+2016-12-19 12:00:15,373 root         INFO     Added 1 new entries
+2016-12-19 12:44:58,302 root         INFO     Set 10 records to 'Off-Market'
+2016-12-20 12:00:14,740 root         INFO     Added 0 new entries
+2016-12-20 12:44:23,982 root         INFO     Set 7 records to 'Off-Market'
+2016-12-21 12:00:13,805 root         INFO     Added 5 new entries
+2016-12-21 12:45:07,591 root         INFO     Set 16 records to 'Off-Market'
+2016-12-22 12:00:12,896 root         INFO     Added 1 new entries
+2016-12-22 12:44:50,583 root         INFO     Set 7 records to 'Off-Market'
+2016-12-23 12:00:13,589 root         INFO     Added 1 new entries
+2016-12-23 12:44:33,802 root         INFO     Set 8 records to 'Off-Market'
+2016-12-24 12:00:16,979 root         INFO     Added 2 new entries
+2016-12-24 12:45:16,217 root         INFO     Set 11 records to 'Off-Market'
+2016-12-25 12:00:13,724 root         INFO     Added 0 new entries
+2016-12-25 12:45:12,868 root         INFO     Set 0 records to 'Off-Market'
+2016-12-26 12:00:12,390 root         INFO     Added 0 new entries
+2016-12-26 12:45:01,897 root         INFO     Set 1 records to 'Off-Market'
+2016-12-27 12:00:12,689 root         INFO     Added 1 new entries
+2016-12-27 12:45:45,563 root         INFO     Set 5 records to 'Off-Market'
+2016-12-28 12:00:13,477 root         INFO     Added 0 new entries
+2016-12-28 12:45:51,677 root         INFO     Set 3 records to 'Off-Market'
+2016-12-29 12:00:11,597 root         INFO     Added 3 new entries
+2016-12-29 12:45:31,719 root         INFO     Set 5 records to 'Off-Market'
+2016-12-30 12:00:12,051 root         INFO     Added 2 new entries
+2016-12-30 12:46:26,246 root         INFO     Set 6 records to 'Off-Market'
+2016-12-31 12:00:11,728 root         INFO     Added 2 new entries
+2016-12-31 12:46:20,261 root         INFO     Set 9 records to 'Off-Market'
+2017-01-01 12:00:14,163 root         INFO     Added 0 new entries
+2017-01-01 12:46:38,871 root         INFO     Set 10 records to 'Off-Market'
+2017-01-02 12:00:13,196 root         INFO     Added 0 new entries
+2017-01-02 12:46:23,415 root         INFO     Set 3 records to 'Off-Market'
+2017-01-03 12:00:12,153 root         INFO     Added 4 new entries
+2017-01-03 12:47:08,302 root         INFO     Set 4 records to 'Off-Market'
+2017-01-04 12:00:14,904 root         INFO     Added 9 new entries
+2017-01-04 12:46:52,233 root         INFO     Set 7 records to 'Off-Market'
+2017-01-05 12:00:15,258 root         INFO     Added 20 new entries
+2017-01-05 12:47:41,731 root         INFO     Set 10 records to 'Off-Market'
+2017-01-06 12:00:11,112 root         INFO     Added 13 new entries
+2017-01-06 12:48:55,152 root         INFO     Set 4 records to 'Off-Market'
+2017-01-07 12:00:15,118 root         INFO     Added 3 new entries
+2017-01-07 12:47:18,921 root         INFO     Set 2 records to 'Off-Market'
+2017-01-08 12:00:13,183 root         INFO     Added 1 new entries
+2017-01-08 12:47:44,317 root         INFO     Set 2 records to 'Off-Market'
+2017-01-09 12:00:13,779 root         INFO     Added 1 new entries
+2017-01-09 12:47:33,768 root         INFO     Set 5 records to 'Off-Market'
+2017-01-10 12:00:12,694 root         INFO     Added 7 new entries
+2017-01-10 12:48:20,840 root         INFO     Set 9 records to 'Off-Market'
+2017-01-11 12:00:10,769 root         INFO     Added 3 new entries
+2017-01-11 12:47:51,631 root         INFO     Set 7 records to 'Off-Market'
+2017-01-12 12:00:15,105 root         INFO     Added 13 new entries
+2017-01-12 12:48:33,096 root         INFO     Set 4 records to 'Off-Market'
+2017-01-13 12:00:13,445 root         INFO     Added 10 new entries
+2017-01-13 12:48:38,545 root         INFO     Set 4 records to 'Off-Market'
+2017-01-14 12:00:14,314 root         INFO     Added 6 new entries
+2017-01-14 12:48:41,811 root         INFO     Set 4 records to 'Off-Market'
+2017-01-15 12:00:13,687 root         INFO     Added 1 new entries
+2017-01-15 12:48:25,518 root         INFO     Set 4 records to 'Off-Market'
+2017-01-16 12:00:13,220 root         INFO     Added 1 new entries
+2017-01-16 12:48:23,150 root         INFO     Set 2 records to 'Off-Market'
+2017-01-17 12:00:13,553 root         INFO     Added 2 new entries
+2017-01-17 12:49:01,815 root         INFO     Set 4 records to 'Off-Market'
+2017-01-18 12:00:14,327 root         INFO     Added 9 new entries
+2017-01-18 12:49:43,993 root         INFO     Set 9 records to 'Off-Market'
+2017-01-19 12:00:14,857 root         INFO     Added 11 new entries
+2017-01-19 12:49:21,255 root         INFO     Set 5 records to 'Off-Market'
+2017-01-20 12:00:14,941 root         INFO     Added 6 new entries
+2017-01-20 12:49:24,860 root         INFO     Set 6 records to 'Off-Market'
+2017-01-21 12:00:16,031 root         INFO     Added 3 new entries
+2017-01-21 12:49:36,471 root         INFO     Set 11 records to 'Off-Market'
+2017-01-22 12:00:13,012 root         INFO     Added 2 new entries
+2017-01-22 12:49:59,407 root         INFO     Set 5 records to 'Off-Market'
+2017-01-23 12:00:10,584 root         INFO     Added 1 new entries
+2017-01-23 12:49:33,239 root         INFO     Set 8 records to 'Off-Market'
+2017-01-24 12:00:13,422 root         INFO     Added 3 new entries
+2017-01-24 12:50:47,538 root         INFO     Set 8 records to 'Off-Market'
+2017-01-25 12:00:11,948 root         INFO     Added 7 new entries
+2017-01-25 12:50:26,291 root         INFO     Set 7 records to 'Off-Market'
+2017-01-26 12:00:09,772 root         INFO     Added 14 new entries
+2017-01-26 12:50:39,157 root         INFO     Set 6 records to 'Off-Market'
+2017-01-27 12:00:13,233 root         INFO     Added 2 new entries
+2017-01-27 12:52:27,428 root         INFO     Set 4 records to 'Off-Market'
+2017-01-28 12:00:13,451 root         INFO     Added 6 new entries
+2017-01-28 12:51:08,412 root         INFO     Set 5 records to 'Off-Market'
+2017-01-29 12:00:15,934 root         INFO     Added 2 new entries
+2017-01-29 12:50:46,657 root         INFO     Set 5 records to 'Off-Market'
+2017-01-30 12:00:14,758 root         INFO     Added 0 new entries
+2017-01-30 12:51:21,754 root         INFO     Set 5 records to 'Off-Market'
+2017-01-31 12:00:14,477 root         INFO     Added 4 new entries
+2017-01-31 12:51:33,650 root         INFO     Set 12 records to 'Off-Market'
+2017-02-01 12:00:16,035 root         INFO     Added 8 new entries
+2017-02-01 12:53:00,984 root         INFO     Set 11 records to 'Off-Market'
+2017-02-02 12:00:15,750 root         INFO     Added 15 new entries
+2017-02-02 12:52:11,818 root         INFO     Set 7 records to 'Off-Market'
+2017-02-03 12:00:15,938 root         INFO     Added 11 new entries
+2017-02-03 12:51:56,885 root         INFO     Set 10 records to 'Off-Market'
+2017-02-04 12:00:17,541 root         INFO     Added 7 new entries
+2017-02-04 12:52:08,125 root         INFO     Set 6 records to 'Off-Market'
+2017-02-05 12:00:14,421 root         INFO     Added 2 new entries
+2017-02-05 12:51:56,753 root         INFO     Set 7 records to 'Off-Market'
+2017-02-06 12:00:14,075 root         INFO     Added 1 new entries
+2017-02-06 12:52:03,352 root         INFO     Set 2 records to 'Off-Market'
+2017-02-07 12:00:15,340 root         INFO     Added 5 new entries
+2017-02-07 12:52:23,572 root         INFO     Set 8 records to 'Off-Market'
+2017-02-08 12:00:14,936 root         INFO     Added 12 new entries
+2017-02-08 12:53:18,469 root         INFO     Set 7 records to 'Off-Market'
+2017-02-09 12:00:16,665 root         INFO     Added 15 new entries
+2017-02-09 12:00:24,918 root         ERROR    Error with MLS: 72117164 ('NoneType' object has no attribute 'groups')
+2017-02-09 12:53:20,247 root         INFO     Set 8 records to 'Off-Market'
+2017-02-10 12:00:17,464 root         INFO     Added 12 new entries
+2017-02-10 12:52:39,809 root         INFO     Set 6 records to 'Off-Market'
+2017-02-11 12:00:19,299 root         INFO     Added 4 new entries
+2017-02-11 12:54:48,914 root         INFO     Set 6 records to 'Off-Market'
+2017-02-12 12:00:17,601 root         INFO     Added 0 new entries
+2017-02-12 12:53:21,794 root         INFO     Set 8 records to 'Off-Market'
+2017-02-13 12:00:17,278 root         INFO     Added 3 new entries
+2017-02-13 12:54:34,559 root         INFO     Set 5 records to 'Off-Market'
+2017-02-14 12:00:17,410 root         INFO     Added 6 new entries
+2017-02-14 12:54:04,369 root         INFO     Set 6 records to 'Off-Market'
+2017-02-15 12:00:16,828 root         INFO     Added 7 new entries
+2017-02-15 12:54:19,204 root         INFO     Set 4 records to 'Off-Market'
+2017-02-16 12:00:19,522 root         INFO     Added 11 new entries
+2017-02-16 12:54:05,447 root         INFO     Set 9 records to 'Off-Market'
+2017-02-17 12:00:18,885 root         INFO     Added 13 new entries
+2017-02-17 12:54:20,792 root         INFO     Set 9 records to 'Off-Market'
+2017-02-18 12:00:18,100 root         INFO     Added 6 new entries
+2017-02-18 12:54:41,156 root         INFO     Set 5 records to 'Off-Market'
+2017-02-19 12:00:17,534 root         INFO     Added 1 new entries
+2017-02-19 12:53:51,816 root         INFO     Set 4 records to 'Off-Market'
+2017-02-20 12:00:16,056 root         INFO     Added 3 new entries
+2017-02-20 12:54:35,220 root         INFO     Set 4 records to 'Off-Market'
+2017-02-21 12:00:16,545 root         INFO     Added 4 new entries
+2017-02-21 12:54:56,202 root         INFO     Set 5 records to 'Off-Market'
+2017-02-22 12:00:17,767 root         INFO     Added 5 new entries
+2017-02-22 12:56:03,672 root         INFO     Set 15 records to 'Off-Market'
+2017-02-23 12:00:13,183 root         INFO     Added 16 new entries
+2017-02-23 12:55:13,541 root         INFO     Set 8 records to 'Off-Market'
+2017-02-24 12:00:15,117 root         INFO     Added 13 new entries
+2017-02-24 12:56:00,866 root         INFO     Set 8 records to 'Off-Market'
+2017-02-25 12:00:13,100 root         INFO     Added 3 new entries
+2017-02-25 12:55:44,614 root         INFO     Set 6 records to 'Off-Market'
+2017-02-26 12:00:12,609 root         INFO     Added 0 new entries
+2017-02-26 12:56:18,857 root         INFO     Set 8 records to 'Off-Market'
+2017-02-27 12:00:12,393 root         INFO     Added 0 new entries
+2017-02-27 12:55:35,010 root         INFO     Set 5 records to 'Off-Market'
+2017-02-28 12:00:12,590 root         INFO     Added 2 new entries
+2017-02-28 12:56:14,555 root         INFO     Set 14 records to 'Off-Market'
+2017-03-01 12:00:17,943 root         INFO     Added 12 new entries
+2017-03-01 12:57:20,060 root         INFO     Set 11 records to 'Off-Market'
+2017-03-02 12:00:13,095 root         INFO     Added 26 new entries
+2017-03-02 12:56:39,066 root         INFO     Set 11 records to 'Off-Market'
+2017-03-03 12:00:11,570 root         INFO     Added 21 new entries
+2017-03-03 12:57:49,569 root         INFO     Set 13 records to 'Off-Market'
+2017-03-04 12:00:15,738 root         INFO     Added 4 new entries
+2017-03-04 12:56:26,486 root         INFO     Set 9 records to 'Off-Market'
+2017-03-05 12:00:13,784 root         INFO     Added 1 new entries
+2017-03-05 12:56:50,298 root         INFO     Set 4 records to 'Off-Market'
+2017-03-06 12:00:13,672 root         INFO     Added 3 new entries
+2017-03-06 12:57:20,245 root         INFO     Set 4 records to 'Off-Market'
+2017-03-07 12:00:13,747 root         INFO     Added 8 new entries
+2017-03-07 12:57:40,274 root         INFO     Set 3 records to 'Off-Market'
+2017-03-08 12:00:14,767 root         INFO     Added 12 new entries
+2017-03-08 12:57:10,493 root         INFO     Set 12 records to 'Off-Market'
+2017-03-09 12:00:17,230 root         INFO     Added 20 new entries
+2017-03-09 12:57:46,765 root         INFO     Set 10 records to 'Off-Market'
+2017-03-10 12:00:16,468 root         INFO     Added 22 new entries
+2017-03-10 12:58:45,666 root         INFO     Set 4 records to 'Off-Market'
+2017-03-11 12:00:14,543 root         INFO     Added 6 new entries
+2017-03-11 12:58:19,016 root         INFO     Set 6 records to 'Off-Market'
+2017-03-12 12:00:10,281 root         INFO     Added 1 new entries
+2017-03-12 12:58:49,413 root         INFO     Set 4 records to 'Off-Market'
+2017-03-13 12:00:14,201 root         INFO     Added 1 new entries
+2017-03-13 12:58:45,368 root         INFO     Set 5 records to 'Off-Market'
+2017-03-14 12:00:14,075 root         INFO     Added 3 new entries
+2017-03-14 12:58:28,131 root         INFO     Set 13 records to 'Off-Market'
+2017-03-15 12:00:14,510 root         INFO     Added 8 new entries
+2017-03-15 12:59:22,939 root         INFO     Set 21 records to 'Off-Market'
+2017-03-16 12:00:13,677 root         INFO     Added 20 new entries
+2017-03-16 13:00:32,450 root         INFO     Set 8 records to 'Off-Market'
+2017-03-17 12:00:14,360 root         INFO     Added 9 new entries
+2017-03-17 13:00:07,113 root         INFO     Set 8 records to 'Off-Market'
+2017-03-18 12:00:13,284 root         INFO     Added 3 new entries
+2017-03-18 13:02:45,554 root         INFO     Set 10 records to 'Off-Market'
+2017-03-19 12:00:12,856 root         INFO     Added 3 new entries
+2017-03-19 12:59:50,039 root         INFO     Set 3 records to 'Off-Market'
+2017-03-20 12:00:14,314 root         INFO     Added 0 new entries
+2017-03-20 13:01:30,005 root         INFO     Set 5 records to 'Off-Market'
+2017-03-21 12:00:15,160 root         INFO     Added 14 new entries
+2017-03-21 13:00:19,333 root         INFO     Set 15 records to 'Off-Market'
+2017-03-22 12:00:14,792 root         INFO     Added 21 new entries
+2017-03-22 13:03:04,759 root         INFO     Set 13 records to 'Off-Market'
+2017-03-23 12:00:15,424 root         INFO     Added 25 new entries
+2017-03-23 13:01:48,769 root         INFO     Set 9 records to 'Off-Market'
+2017-03-24 12:00:13,550 root         INFO     Added 10 new entries
+2017-03-24 13:01:27,325 root         INFO     Set 7 records to 'Off-Market'
+2017-03-25 12:00:16,045 root         INFO     Added 5 new entries
+2017-03-25 13:01:57,966 root         INFO     Set 15 records to 'Off-Market'
+2017-03-26 12:00:12,780 root         INFO     Added 1 new entries
+2017-03-26 13:02:29,118 root         INFO     Set 5 records to 'Off-Market'
+2017-03-27 12:00:14,369 root         INFO     Added 3 new entries
+2017-03-27 13:02:00,757 root         INFO     Set 5 records to 'Off-Market'
+2017-03-28 12:00:12,117 root         INFO     Added 4 new entries
+2017-03-28 13:02:06,781 root         INFO     Set 21 records to 'Off-Market'
+2017-03-29 12:00:14,350 root         INFO     Added 11 new entries
+2017-03-29 13:02:28,956 root         INFO     Set 13 records to 'Off-Market'
+2017-03-30 12:00:13,718 root         INFO     Added 39 new entries
+2017-03-30 12:00:44,084 root         ERROR    Error with MLS: 72137601 ('NoneType' object has no attribute 'groups')
+2017-03-30 13:03:51,625 root         INFO     Set 11 records to 'Off-Market'
+2017-04-01 12:00:13,579 root         INFO     Added 26 new entries
+2017-04-01 13:04:16,427 root         INFO     Set 18 records to 'Off-Market'
+2017-04-02 12:00:15,408 root         INFO     Added 1 new entries
+2017-04-02 13:03:27,861 root         INFO     Set 5 records to 'Off-Market'
+2017-04-03 12:00:14,640 root         INFO     Added 2 new entries
+2017-04-03 13:02:20,748 root         INFO     Set 10 records to 'Off-Market'
+2017-04-04 12:00:15,890 root         INFO     Added 8 new entries
+2017-04-04 13:03:03,477 root         INFO     Set 7 records to 'Off-Market'
+2017-04-05 12:00:14,427 root         INFO     Added 10 new entries
+2017-04-05 13:03:38,705 root         INFO     Set 16 records to 'Off-Market'
+2017-04-06 12:00:16,809 root         INFO     Added 47 new entries
+2017-04-06 13:05:11,970 root         INFO     Set 11 records to 'Off-Market'
+2017-04-07 12:00:17,927 root         INFO     Added 20 new entries
+2017-04-07 13:04:14,501 root         INFO     Set 10 records to 'Off-Market'
+2017-04-08 12:00:16,422 root         INFO     Added 13 new entries
+2017-04-08 13:03:27,301 root         INFO     Set 12 records to 'Off-Market'
+2017-04-09 12:00:16,415 root         INFO     Added 4 new entries
+2017-04-09 13:03:43,315 root         INFO     Set 2 records to 'Off-Market'
+2017-04-10 12:00:16,479 root         INFO     Added 1 new entries
+2017-04-10 13:04:05,048 root         INFO     Set 5 records to 'Off-Market'
+2017-04-11 12:00:16,654 root         INFO     Added 7 new entries
+2017-04-11 13:04:44,546 root         INFO     Set 20 records to 'Off-Market'
+2017-04-12 12:00:16,125 root         INFO     Added 8 new entries
+2017-04-12 13:05:44,317 root         INFO     Set 17 records to 'Off-Market'
+2017-04-13 12:00:17,657 root         INFO     Added 11 new entries
+2017-04-13 13:05:10,317 root         INFO     Set 18 records to 'Off-Market'
+2017-04-14 12:00:17,886 root         INFO     Added 9 new entries
+2017-04-14 13:05:44,007 root         INFO     Set 11 records to 'Off-Market'
+2017-04-15 12:00:15,194 root         INFO     Added 4 new entries
+2017-04-15 13:06:35,746 root         INFO     Set 6 records to 'Off-Market'
+2017-04-16 12:00:14,198 root         INFO     Added 0 new entries
+2017-04-16 13:06:05,858 root         INFO     Set 5 records to 'Off-Market'
+2017-04-17 12:00:14,955 root         INFO     Added 2 new entries
+2017-04-17 13:11:06,229 root         INFO     Set 8 records to 'Off-Market'
+2017-04-18 12:00:14,681 root         INFO     Added 7 new entries
+2017-04-18 13:06:34,680 root         INFO     Set 10 records to 'Off-Market'
+2017-04-19 12:00:16,771 root         INFO     Added 27 new entries
+2017-04-19 12:00:50,109 root         ERROR    Error with MLS: 72147711 ('NoneType' object has no attribute 'groups')
+2017-04-19 13:07:16,152 root         INFO     Set 14 records to 'Off-Market'
+2017-04-20 12:00:15,612 root         INFO     Added 59 new entries
+2017-04-20 12:00:57,595 root         ERROR    Error with MLS: 72148193 ('NoneType' object has no attribute 'groups')
+2017-04-20 13:09:10,951 root         INFO     Set 11 records to 'Off-Market'
+2017-04-21 12:00:23,259 root         INFO     Added 21 new entries
+2017-04-21 13:08:02,998 root         INFO     Set 11 records to 'Off-Market'
+2017-05-15 17:55:34,424 root         INFO     Added 197 new entries
+2017-05-15 17:59:03,080 root         ERROR    Error with MLS: 72162140 ('NoneType' object has no attribute 'groups')
+2017-05-15 19:10:04,886 root         INFO     Set 225 records to 'Off-Market'

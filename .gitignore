@@ -1,0 +1,19 @@
+# Python files
+*.pyc
+
+# IntelliJ project files
+.idea/
+
+# Node Directories
+node_modules/
+bower_components/
+
+# Data
+data/
+
+# Other
+.DS_Store
+private/
+
+*.db
+*.db-journal
