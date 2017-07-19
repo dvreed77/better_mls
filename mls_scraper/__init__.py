@@ -25,7 +25,7 @@ def make_celery(app):
 
 app = Flask(__name__)
 
-app.config.from_object('mls.settings')
+app.config.from_object('mls_scraper.settings')
 app.config['PKG_NAME'] = __name__
 
 celery = make_celery(app)

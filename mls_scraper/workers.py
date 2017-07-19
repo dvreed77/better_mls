@@ -4,8 +4,10 @@ import re
 import time
 import datetime
 from math import ceil
-from models import MLSListing
-from models2 import db
+from sqlalchemy import desc
+
+from mls_scraper.models import MLSListing, MLSPrice
+from mls_scraper import db
 
 
 def get_params(aid, query):
@@ -38,7 +40,7 @@ def scrape_listing_page(base_url, params, pn=1):
             out = {
                 "mls": int(prop[0].xpath('td[4]/a/text()')[0]),
                 "status": prop[0].xpath('td[6]/text()')[0].strip(),
-                "price": prop[0].xpath('td[8]/text()')[0].strip(),
+                "price": int(prop[0].xpath('td[8]/text()')[0].strip().replace('$', '').replace(',', '')),
                 "street": prop[1].xpath('td[1]/text()')[0],
                 "city": prop[2].xpath('td[1]/text()')[0]
             }
@@ -117,6 +119,40 @@ def get_page_info(base_url, mls, aid):
         }
         return out
 
+def listing_exists(mls):
+    mls_listing = MLSListing.query.get(mls)
+    if mls_listing:
+        return True
+    else:
+        return False
+
+
+def save_price(listing):
+    mls_price = MLSPrice.query.filter(
+        MLSPrice.mls == listing['mls']
+    ).order_by(desc(MLSPrice.datetime)).first()
+
+    if (mls_price is None) or (mls_price.price!=listing['price']) or (mls_price.status!=listing['status']):
+        mls_price = MLSPrice(
+        mls=listing['mls'],
+        price=listing['price'],
+        status=listing['status'],
+        datetime=datetime.datetime.now()
+        )
+        db.session.add(mls_price)
+        return True
+
+    return False
+
+
+def process_listing(mls):
+    listing = get_page_info('http://vow.mlspin.com/idx/details.aspx', mls=mls, aid=AID_KEY)
+    listing["mls"] = mls
+    return save_listing(listing)
+
+
+def process_price(listing):
+    return save_price(listing)
 
 def save_listing(listing):
 
@@ -134,3 +170,5 @@ def save_listing(listing):
         )
 
         db.session.add(mls_listing)
+        return True
+    return False
