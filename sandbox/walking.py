@@ -10,21 +10,6 @@ import matplotlib.pyplot as plt
 copley = [42.3502089,-71.0768681]
 home = [42.3369546,-71.0751955]
 
-def get_distance_duration(origin, destination):
-    url = 'https://maps.googleapis.com/maps/api/directions/json'
-
-    params = {
-        'origin': '%f,%f' % (origin[0], origin[1]),
-        'destination': '%f,%f' % (destination[0], destination[1]),
-        'key': GOOGLE_KEY,
-        'mode': 'walking'
-    }
-
-    r = requests.get(url, params)
-    out = r.json()
-    distance = out['routes'][0]['legs'][0]['distance']
-    duration = out['routes'][0]['legs'][0]['duration']
-    return distance['value'], duration['value']
 
 
 lng_bounds = [-71.1249301, -71.0235092]
@@ -61,73 +46,67 @@ CS = plt.contour(X, Y, Z, 20)
 plt.clabel(CS, inline=1, fontsize=10)
 
 
-from mls_scraper.models import LatLngGrid
+from mls_scraper.models import LatLngGrid, MLSListing
 from mls_scraper import db
 
 db.create_all()
 
-# idx = db.Column(db.Integer)
-# lat = db.Column(db.Float)
-# lng = db.Column(db.Float)
-# distance = db.Column(db.Float)
-# duration = db.Column(db.Float)
-# label = db.Column(db.String)
-def create_grid(label, bounds, n_points):
-    lng_bounds = bounds[0]
-    lat_bounds = bounds[1]
-    dlng = np.abs(lng_bounds[1] - lng_bounds[0])/n_points
-    dlat = np.abs(lat_bounds[1] - lat_bounds[0])/n_points
 
-    lnr = np.arange(min(lng_bounds), max(lng_bounds), dlng)[:n_points]
-    ltr = np.arange(min(lat_bounds), max(lat_bounds), dlat)[:n_points]
-
-    for idx in range(n_points*n_points):
-        iy = int(idx/n_points)
-        ix = int(idx%n_points)
-        llg = LatLngGrid(
-        idx=idx,
-        lat=ltr[iy],
-        lng=lnr[ix],
-        label=label
-        )
-        db.session.add(llg)
-    db.session.commit()
 
 
 lng_bounds = [-71.1249301, -71.0235092]
 lat_bounds = [42.3767355, 42.3145089]
 create_grid('grid_10', [lng_bounds, lat_bounds], 10)
 
-llgs = LatLngGrid.query.filter(
-    LatLngGrid.label=='grid_10',
-    LatLngGrid.distance == None
-).all()
-
-for llg in llgs:
-    distance, duration = get_distance_duration([llg.lat, llg.lng], copley)
-    llgs[0].distance = distance
-    llgs[0].duration = duration
-
-db.session.commit()
 
 
-llgs = LatLngGrid.query.filter(
-    LatLngGrid.label=='grid_10'
-).order_by(LatLngGrid.idx).all()
 
 
-lnr = [x.lng for x in llgs[:10]]
-ltr = [x.lat for x in llgs[::10]]
-
-ltr
-lnr
-n_points = 10
-Z = np.empty((10, 10))
-for i in range(len(llgs)):
-    Z[int(i/n_points), int(i%n_points)] = llgs[i].distance
 
 from scipy import interpolate
 
 f = interpolate.interp2d(lnr, ltr, Z, kind='cubic')
 
-f(home[1], home[0])
+f(-71.025135, 42.3357757)
+
+
+url = 'https://maps.googleapis.com/maps/api/directions/json'
+
+params = {
+    'origin': '%f,%f' % (42.3357757,-71.025135),
+    'destination': '%f,%f' % (copley[0], copley[1]),
+    'key': GOOGLE_KEY,
+    # 'mode': 'walking',
+    'mode': 'transit'
+}
+
+r = requests.get(url, params)
+out = r.json()
+distance = out['routes'][0]['legs'][0]['distance']
+duration = out['routes'][0]['legs'][0]['duration']
+
+duration
+
+
+e = 42.3379544,-70.9878652
+w = 42.3264574,-71.1767246
+n = 42.3827608,-71.1050284
+s = 42.2916585,-71.0993726
+bounds = [w[1],e[1],s[0],n[0]]
+
+
+from mls_scraper.analysis import create_grid, fill_grid, get_grid
+copley = [42.3502089,-71.0768681]
+
+
+create_grid(label='grid_10', bounds=bounds, n_points=10)
+
+fill_grid('grid_10', copley, 'walking')
+
+x,y,Z = get_grid('grid_10', 'walking', 'duration')
+
+X, Y = np.meshgrid(x, y)
+
+plt.figure()
+CS = plt.contour(X, Y, Z, 20)
+plt.clabel(CS, inline=1, fontsize=10)

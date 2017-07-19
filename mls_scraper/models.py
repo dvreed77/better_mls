@@ -33,15 +33,15 @@ class MLSPrice(db.Model):
 
 
 class LatLngGrid(db.Model):
-    __tablename__ = 'lat_lng_entry'
+    __tablename__ = 'lat_lng_grid'
 
     label = db.Column(db.String, primary_key=True)
     n_points = db.Column(db.Integer)
     bounds = db.Column(db.ARRAY(db.Float))
 
 
-class LatLngGrid(db.Model):
-    __tablename__ = 'lat_lng_grid'
+class LatLngEntry(db.Model):
+    __tablename__ = 'lat_lng_entry'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     idx = db.Column(db.Integer)
