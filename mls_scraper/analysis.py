@@ -49,7 +49,7 @@ def get_grid(label, mode, metric):
     for i in range(len(lles)):
         Z[int(i/llg.n_points), int(i%llg.n_points)] = lles[i].__dict__['%s_%s'%(mode, metric)]
 
-    m = np.median(Z[Z != NULL_VALUE])
+    m = np.max(Z[Z != NULL_VALUE])
     # Assign the median to the zero elements
     Z[Z == NULL_VALUE] = m
 

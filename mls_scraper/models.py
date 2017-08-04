@@ -13,9 +13,21 @@ class MLSListing(db.Model):
     lat = db.Column(db.Float)
     lng = db.Column(db.Float)
 
-
     def __repr__(self):
         return '<MLS %r: %s>' % (self.mls, self.address)
+
+
+class MLSListingFeature(db.Model):
+    __tablename__ = 'mls_feature'
+
+    mls = db.Column(db.Integer, primary_key=True)
+    walking_distance = db.Column(db.Float)
+    walking_duration = db.Column(db.Float)
+    transit_distance = db.Column(db.Float)
+    transit_duration = db.Column(db.Float)
+
+    def __repr__(self):
+        return '<MLS Feature %r>' % (self.mls)
 
 
 class MLSPrice(db.Model):
