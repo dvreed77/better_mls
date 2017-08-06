@@ -28,7 +28,7 @@ INSTALLED_APPS = (
     'rest_framework_swagger',
 )
 
-ROOT_URLCONF = 'better_mls.urls'
+ROOT_URLCONF = 'boston_condo_explorer.urls'
 
 TEMPLATES = [
     {
@@ -46,7 +46,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'better_mls.wsgi.application'
+WSGI_APPLICATION = 'boston_condo_explorer.wsgi.application'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
@@ -63,7 +63,7 @@ STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static/')
 CORS_ORIGIN_ALLOW_ALL = True
 
 REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS': 'better_mls.pagination.StandardResultsSetPagination',
+    'DEFAULT_PAGINATION_CLASS': 'boston_condo_explorer.pagination.StandardResultsSetPagination',
     'PAGE_SIZE': 50,  # Default to 10
     'PAGINATE_BY_PARAM': 'page_size',  # Allow client to override, using `?page_size=xxx`.
     'MAX_PAGINATE_BY': 2000,  # Maximum limit allowed when using `?page_size=xxx`.

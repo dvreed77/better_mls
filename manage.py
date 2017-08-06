@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "better_mls.settings.local")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "boston_condo_explorer.settings.local")
 
     from django.core.management import execute_from_command_line
 

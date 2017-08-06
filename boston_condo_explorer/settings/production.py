@@ -1,4 +1,4 @@
-from circle_4.settings.base import *
+from boston_condo_explorer.settings.base import *
 
 DEBUG = True
 # CACHE_MIDDLEWARE_ALIAS = 'default'

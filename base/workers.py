@@ -4,10 +4,10 @@ import re
 import time
 import datetime
 from math import ceil
-from sqlalchemy import desc
+from django.utils import timezone
+from django.conf import settings
 
-from mls_scraper.models import MLSListing, MLSPrice
-from mls_scraper import db
+from .models import MLSListing, MLSPrice, MLSFeature
 
 
 def get_params(aid, query):
@@ -90,6 +90,12 @@ def get_page_info(base_url, mls, aid):
         living_area = get_feature(html, 'Living Area')
 
         try:
+            summary = max(html.xpath('//td[@class="Details"]/text()'), key=lambda x: len(x)).strip()
+        except:
+            print("Couldn't get summary for MLS: %s" % mls)
+            summary = None
+
+        try:
             n_beds = beds_baths.split('/')[0]
             n_baths = beds_baths.split('/')[1]
         except:
@@ -102,7 +108,8 @@ def get_page_info(base_url, mls, aid):
             'total_rooms': float(total_rooms),
             'n_beds': float(n_beds),
             'n_baths': float(n_baths),
-            'living_area': float(re.match('(\d+)sqft', living_area).groups()[0])
+            'living_area': float(re.match('(\d+)sqft', living_area).groups()[0]),
+            'summary': summary
         }
         return out
     except Exception as e:
@@ -115,12 +122,14 @@ def get_page_info(base_url, mls, aid):
             'total_rooms': None,
             'n_beds': None,
             'n_baths': None,
-            'living_area': None
+            'living_area': None,
+            'summary': None
         }
         return out
 
+
 def listing_exists(mls):
-    mls_listing = MLSListing.query.get(mls)
+    mls_listing = MLSListing.objects.filter(pk=mls).first()
     if mls_listing:
         return True
     else:
@@ -128,18 +137,21 @@ def listing_exists(mls):
 
 
 def save_price(listing):
-    mls_price = MLSPrice.query.filter(
-        MLSPrice.mls == listing['mls']
-    ).order_by(desc(MLSPrice.datetime)).first()
+    # mls_price = MLSPrice.query.filter(
+    #     MLSPrice.mls == listing['mls']
+    # ).order_by(desc(MLSPrice.datetime)).first()
+
+    mls_price = MLSPrice.objects.filter(mls=listing['mls']).order_by('-datetime').first()
 
     if (mls_price is None) or (mls_price.price!=listing['price']) or (mls_price.status!=listing['status']):
         mls_price = MLSPrice(
-        mls=listing['mls'],
+        mls_id=listing['mls'],
         price=listing['price'],
         status=listing['status'],
-        datetime=datetime.datetime.now()
+        datetime=timezone.now()
         )
-        db.session.add(mls_price)
+        # db.session.add(mls_price)
+        mls_price.save()
         return True
 
     return False
@@ -151,14 +163,62 @@ def process_listing(mls):
     return save_listing(listing)
 
 
+def get_ll(address):
+    url = 'https://maps.googleapis.com/maps/api/geocode/json'
+
+    params = {
+        'address': address,
+        'key': settings.GOOGLE_KEY
+    }
+
+    r = requests.get(url, params=params)
+    results = r.json()
+
+    try:
+        return results['results'][0]['geometry']['location']
+    except:
+        return {'lat': None, 'lng': None}
+
+
+def get_distance_duration(origin, destination, mode='walking'):
+    url = 'https://maps.googleapis.com/maps/api/directions/json'
+
+    try:
+        params = {
+            'origin': '%f,%f' % (origin[0], origin[1]),
+            'destination': '%f,%f' % (destination[0], destination[1]),
+            'key': settings.GOOGLE_KEY,
+            'mode': 'transit'
+        }
+    except:
+        return None, None
+
+    r = requests.get(url, params)
+    out = r.json()
+
+    if out['status'] == 'ZERO_RESULTS':
+        distance = None
+        duration = None
+    else:
+        try:
+            distance = out['routes'][0]['legs'][0]['distance']['value']
+            duration = out['routes'][0]['legs'][0]['duration']['value']
+        except:
+            print(out)
+            distance = None
+            duration = None
+
+    return distance, duration
+
 def process_price(listing):
     return save_price(listing)
 
 def save_listing(listing):
 
-    mls_listing = MLSListing.query.get(listing['mls'])
+    mls_listing = MLSListing.objects.filter(pk=listing['mls']).first()
 
     if mls_listing is None:
+        ll = get_ll(listing['address'])
         mls_listing = MLSListing(
             mls=listing['mls'],
             address=listing['address'],
@@ -166,9 +226,23 @@ def save_listing(listing):
             n_beds=listing['n_beds'],
             n_baths=listing['n_baths'],
             total_rooms=listing['total_rooms'],
-            created=datetime.datetime.now()
+            created=timezone.now(),
+            lat=ll['lat'],
+            lng=ll['lng'],
+            summary=listing['summary']
         )
+        mls_listing.save()
 
-        db.session.add(mls_listing)
+        copley = [42.3502089,-71.0768681]
+        try:
+            dist, dur = get_distance_duration([ll['lat'], ll['lng']], copley, 'walking')
+            mf = MLSFeature(mls=m.mls, walking_duration=dur, walking_distance=dist)
+            dist, dur = get_distance_duration([ll['lat'], ll['lng']], copley, 'transit')
+            mf.transit_duration = dur
+            mf.transit_distance = dist
+            mf.save()
+        except:
+            print('Problem saving features for MLS: %i' % listing['mls'])
+
         return True
     return False

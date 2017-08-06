@@ -3,9 +3,9 @@ import os
 from celery import Celery
 
 # set the default Django settings module for the 'celery' program.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'better_mls.settings.local')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'boston_condo_explorer.settings.local')
 
-app = Celery('proj')
+app = Celery('boston_condo_explorer')
 
 # Using a string here means the worker don't have to serialize
 # the configuration object to child processes.

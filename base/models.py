@@ -13,11 +13,7 @@ class MLSListing(models.Model):
     created = models.DateTimeField()
     lat = models.FloatField()
     lng = models.FloatField()
-    #
-    # price = JSONField()
-    #
-    # walking_duration = models.FloatField()
-    # transit_duration = models.FloatField()
+    summary = models.TextField()
 
     class Meta:
         managed = False
@@ -29,6 +25,8 @@ class MLSListing(models.Model):
 
 class MLSComplete(models.Model):
     mls = models.IntegerField(primary_key=True)
+    mls_url = models.URLField()
+    google_maps_url = models.URLField()
     address = models.TextField()
     living_area = models.FloatField()
     n_beds = models.FloatField()

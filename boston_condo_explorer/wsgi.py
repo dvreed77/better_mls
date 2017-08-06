@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "better_mls.settings.production")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "boston_condo_explorer.settings.production")
 
 application = get_wsgi_application()
