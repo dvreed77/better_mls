@@ -1,6 +1,7 @@
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PRIVATE_DIR = os.path.join(BASE_DIR, 'private')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'vwr5#e79cpb&&tax3qkpy6!9fk^&3m1bx+lk2#j2e&3twmk$!='
@@ -89,6 +90,28 @@ EMAIL_PORT = 25
 EMAIL_HOST_USER = 'noreply@tr.com'
 DEFAULT_FROM_EMAIL = 'noreply@tr.com'
 
+CELERY_IMPORTS = ('base.tasks',)
 
 
-# AUTH_USER_MODEL = 'tr_auth.User'
+# Custom Settings
+def get_key(fname):
+    with open(fname, 'r') as f:
+        first_line = f.readline()
+
+    return first_line.strip()
+
+GOOGLE_KEY = get_key(os.path.join(PRIVATE_DIR, 'google.key'))
+AID_KEY = get_key(os.path.join(PRIVATE_DIR, 'aid.key'))
+
+MLS_URLS = {
+    'results_url': 'http://vow.mlspin.com/idx/rslts.aspx',
+    'details_url': 'http://vow.mlspin.com/idx/details.aspx'
+}
+
+QUERY = {
+  "towns": ["BOST", "CAMB"],
+  "types": ["SF", "CC"],
+  "price": [600000, 900000],
+  "beds": 1,
+  "baths": 1
+}
