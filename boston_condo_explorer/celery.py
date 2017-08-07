@@ -13,6 +13,13 @@ app = Celery('boston_condo_explorer')
 #   should have a `CELERY_` prefix.
 app.config_from_object('django.conf:settings', namespace='CELERY')
 
+app.conf.beat_schedule = {
+    'run-all': {
+        'task': 'base.tasks.scrape_all_listings_task',
+        'schedule': 60*60.0
+    }
+}
+
 # Load task modules from all registered Django app configs.
 app.autodiscover_tasks()
 

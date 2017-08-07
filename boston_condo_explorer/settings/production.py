@@ -21,10 +21,10 @@ CACHES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'world_check',
-        'USER': 'trlabs',
-        'PASSWORD': '48I44oLmkXS8GXgu',
-        'HOST': 'trlabs1.c0sx4azlfegv.us-east-1.rds.amazonaws.com',
+        'NAME': 'mls',
+        'USER': 'dreed',
+        'PASSWORD': 'dreed',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
@@ -34,9 +34,9 @@ MIDDLEWARE_CLASSES = (
     'corsheaders.middleware.CorsMiddleware',
 )
 
-ALLOWED_HOSTS += ['ec2-52-207-238-213.compute-1.amazonaws.com', 'carbon.amers2.cis.trcloud']
+ALLOWED_HOSTS += ['www.dvreed.com', 'dvreed.com']
 
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/dreed/static/wc_pep_taxonomy/'
-STATICFILES_DIRS = ( '/home/dreed/static/media/', )
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+# STATICFILES_DIRS = ( '/home/dreed/static/media/', )

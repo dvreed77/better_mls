@@ -8,7 +8,6 @@ DATABASES = {
         'NAME': 'mls',
         'USER': 'dreed',
         'PASSWORD': 'dreed',
-        # 'HOST': 'trlabs1.c0sx4azlfegv.us-east-1.rds.amazonaws.com',
         'HOST': 'localhost',
         'PORT': '5432',
     }

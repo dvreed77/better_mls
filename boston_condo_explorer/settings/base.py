@@ -92,6 +92,12 @@ DEFAULT_FROM_EMAIL = 'noreply@tr.com'
 
 CELERY_IMPORTS = ('base.tasks',)
 
+CELERYBEAT_SCHEDULE = {
+    'run-all': {
+        'task': 'base.tasks.scrape_all_listings_task',
+        'schedule': 20.0
+    }
+}
 
 # Custom Settings
 def get_key(fname):
